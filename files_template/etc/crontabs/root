@@ -1,0 +1,3 @@
+THE_MINUTE THE_HOUR * * * /usr/lib/lua/luci/shellfirebox/scripts/updater.sh >> /tmp/syslog.log 2>&1
+
+# whitespace required

@@ -1,0 +1,50 @@
+<%#
+ Copyright 2008 Steven Barth <steven@midlink.org>
+ Copyright 2008 Jo-Philipp Wich <jow@openwrt.org>
+ Copyright 2012 David Menting <david@nut-bolt.nl>
+ Licensed to the public under the Apache License 2.0.
+-%>
+
+
+<%
+	local ver = require "luci.version"
+	local disp = require "luci.dispatcher"
+	local request  = disp.context.path
+	local category = request[1]
+	local tree = disp.node()
+	local categories = disp.node_childs(tree)
+%>
+
+<script type="text/javascript">//<![CDATA[
+
+	<% require "luci.shellfirebox.ajax_handler" %>
+	$(document).ready(function() {
+		var initialAdvancedModeText = "<%= getAjaxAdvancedModeText() %>";
+		$("#advancedModeToggle").text(initialAdvancedModeText);
+		
+		var initialLanguageText = "<%= getAjaxLanguageText() %>";
+		$("#languageLink").text(initialLanguageText);
+	});
+
+//]]></script>
+
+<% dispatcher = require "luci.dispatcher" %>
+<a class="btn fa fa-wrench" id="advancedModeToggle" href="<%=dispatcher.build_url("admin/services/shellfirebox/toggleAdvancedMode") %>"></a>
+<a class="btn fa fa-language" id="languageLink" href="<%=dispatcher.build_url("admin/services/shellfirebox/toggleLanguage") %>"></a>
+
+
+   <footer>
+    <a href="http://luci.subsignal.org/">Powered by <%= ver.luciname %> (<%= ver.luciversion %>)</a> / <%= ver.distversion %>
+    <% if #categories > 1 then %>
+     <ul class="breadcrumb pull-right" id="modemenu">
+	    <% for i, r in ipairs(categories) do %>
+		    <li<% if request[1] == r then %> class="active"<%end%>><a href="<%=controller%>/<%=r%>/"><%=striptags(translate(tree.nodes[r].title))%></a> <span class="divider">|</span></li>
+	    <% end %>
+     </ul>
+    <% end %>
+   </footer>
+
+  </div>
+ </body>
+</html>
+

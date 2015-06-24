@@ -11,7 +11,7 @@ config wifi-iface
         option device 'radio0'
         option network 'lan'
         option mode 'ap'
-        option ssid 'Shellfire-Box-kbvmt'
+        option ssid 'THE_SSID'
         option encryption 'psk2'
-        option key 'u6tnzy8ey'
+        option key 'THE_WPA_KEY'
 

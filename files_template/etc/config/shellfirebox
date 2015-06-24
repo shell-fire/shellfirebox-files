@@ -3,6 +3,7 @@ config general
 	option webserviceAliasId '48'
 	option connectionstate 'processDisconnected'
 	option autostartRequested 'true'
+	option connectionMode '1'
 
 config webservicealias
 	option host 'www.shellfire.de'
