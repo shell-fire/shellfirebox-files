@@ -27,5 +27,5 @@ confirm () {
     esac
 }
 
-# confirm && 
+#confirm && 
 ssh root@10.30.20.1 sysupgrade -n -v /tmp/$FILENAME

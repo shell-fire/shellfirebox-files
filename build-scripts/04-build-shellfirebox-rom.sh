@@ -38,7 +38,9 @@ sed -i -- "s/THE_SSID/$SSID/g" $WIRELESS
 echo "BOX_ID=$BOX_ID	SSID=$SSID	WPA_KEY=$WPA_KEY	FILENAME_FACTORY=$DEST_FILENAME_FACTORY	FILENAME_SYSUPGRADE=$DEST_FILENAME_SYSUPGRADE	SFBOX_UID=$SFBOX_UID" >> box_secrets.txt
 
 make clean
-make image PACKAGES="openvpn-openssl openssl-util wget ca-certificates luci luci-i18n-base-de luci-app-shellfirebox luci-i18n-shellfirebox-de luasec luci-lib-json obfsproxy -ppp -ppp-mod-pppoe -kmod-usb-core -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev" FILES=files/
+make image PACKAGES="openvpn-polarssl wget ca-certificates luci luci-i18n-base-de luci-app-shellfirebox luci-i18n-shellfirebox-de luasec luci-lib-json obfsproxy -ppp -ppp-mod-pppoe -kmod-usb-core -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev" FILES=files/
+# make image PACKAGES="openvpn-openssl openssl-util wget ca-certificates luci luci-i18n-base-de luci-app-shellfirebox luci-i18n-shellfirebox-de luasec luci-lib-json obfsproxy -ppp -ppp-mod-pppoe -kmod-usb-core -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev" FILES=files/
+
 
 cp bin/ramips/openwrt-15.05-rc2-ramips-mt7620-wt3020-8M-squashfs-sysupgrade.bin shellfire-boxes/$DEST_FILENAME_SYSUPGRADE
 cp bin/ramips/openwrt-15.05-rc2-ramips-mt7620-wt3020-8M-squashfs-factory.bin shellfire-boxes/$DEST_FILENAME_FACTORY

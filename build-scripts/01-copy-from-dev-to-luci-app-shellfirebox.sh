@@ -10,12 +10,12 @@ cp /home/flo/linked/usr/lib/lua/luci/debugger.lua /home/flo/git/luci/application
 cp /home/flo/linked/usr/lib/lua/luci/shellfirebox.lua /home/flo/git/luci/applications/luci-app-shellfirebox/luasrc/shellfirebox.lua
 cp /home/flo/linked/usr/lib/lua/luci/fs.lua /home/flo/git/luci/applications/luci-app-shellfirebox/luasrc/fs.lua
 
-cp /home/flo/linked/usr/lib/lua/luci/view/themes/bootstrap/* /home/flo/OpenWrt-ImageBuilder-15.05-rc2/files_template/usr/lib/lua/luci/view/themes/bootstrap/
-cp /home/flo/linked/usr/lib/lua/luci/controller/admin/index.lua /home/flo/OpenWrt-ImageBuilder-15.05-rc2/files_template/usr/lib/lua/luci/controller/admin/index.lua
-cp /home/flo/linked/usr/lib/lua/luci/dispatcher.lua /home/flo/OpenWrt-ImageBuilder-15.05-rc2/files_template/usr/lib/lua/luci/
-cp /home/flo/linked/usr/lib/lua/luci/sys.lua /home/flo/OpenWrt-ImageBuilder-15.05-rc2/files_template/usr/lib/lua/luci/
+cp /home/flo/linked/usr/lib/lua/luci/view/themes/bootstrap/* /home/flo/git/shellfirebox-files/files_template/usr/lib/lua/luci/view/themes/bootstrap/
+cp /home/flo/linked/usr/lib/lua/luci/controller/admin/index.lua /home/flo/git/shellfirebox-files/files_template/usr/lib/lua/luci/controller/admin/index.lua
+cp /home/flo/linked/usr/lib/lua/luci/dispatcher.lua /home/flo/git/shellfirebox-files/files_template/usr/lib/lua/luci/
+cp /home/flo/linked/usr/lib/lua/luci/sys.lua /home/flo/git/shellfirebox-files/files_template/usr/lib/lua/luci/
 
-
+/home/flo/git/luci/build/i18n-scan.pl /home/flo/git/luci/applications/luci-app-shellfirebox/ > /home/flo/git/luci/applications/luci-app-shellfirebox/po/templates/luci-app-shellfirebox.pot
 
 cd /home/flo/git/luci
 git add .
