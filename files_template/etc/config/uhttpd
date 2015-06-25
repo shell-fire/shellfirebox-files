@@ -14,7 +14,7 @@ config uhttpd 'main'
 	option cgi_prefix '/cgi-bin'
 	option script_timeout '30'
 	option network_timeout '30'
-	option http_keepalive '0'
+	option http_keepalive '30'
 	option tcp_keepalive '1'
 	option ubus_prefix '/ubus'
 

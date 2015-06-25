@@ -25,7 +25,3 @@ echo $(uci get system.@system[0].hostname) > /proc/sys/kernel/hostname
 # (needs openssl-util which we do not need to install if hashed upfront)
 ln -s /etc/ssl/certs/shellfire-ca.crt /etc/ssl/certs/2cd70dd3.0
 
-# enable autostart (auto connect if configured) and run once
-/etc/init.d/shellfirebox enable
-/etc/init.d/shellfirebox start
-

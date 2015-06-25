@@ -18,7 +18,8 @@ function index()
 	page.order   = 10
 	
 	local shellfirebox = require "luci.shellfirebox"
-	if shellfirebox.isAdvancedMode() then
+	-- if shellfirebox.isAdvancedMode() then
+	if luci.sys.user.getpasswd("root") then
 		page.sysauth = "root"
 		page.sysauth_authenticator = "htmlauth"
   	entry({"admin", "logout"}, call("action_logout"), _("Logout"), 90)	
