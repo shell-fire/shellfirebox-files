@@ -3,7 +3,7 @@ config general
 	option webserviceAliasId '48'
 	option connectionstate 'processDisconnected'
 	option autostartRequested 'true'
-	option connectionMode '1'
+	option connectionMode '0'
 
 config server
 	option country 'Austria'
