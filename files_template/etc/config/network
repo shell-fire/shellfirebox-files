@@ -19,7 +19,6 @@ config interface 'lan'
 config interface 'wan'
         option ifname 'eth0.2'
         option force_link '1'
-        option macaddr '20:28:18:a0:d2:0f'
         option proto 'dhcp'
 
 config interface 'wan6'
