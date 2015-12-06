@@ -18,10 +18,9 @@ config zone
 	option input 'REJECT'
 	option output 'ACCEPT'
 	option forward 'REJECT'
-	option masq '1'
 	option mtu_fix '1'
-	option network 'vpn wan'
 	option family 'ipv4'
+	option network 'wan'
 
 config rule
 	option name 'Allow-DHCP-Renew'
@@ -48,6 +47,19 @@ config rule
 
 config include
 	option path '/etc/firewall.user'
+
+config zone
+	option name 'vpn'
+	option forward 'REJECT'
+	option output 'ACCEPT'
+	option network 'vpn'
+	option input 'REJECT'
+	option mtu_fix '1'
+	option masq '1'
+
+config forwarding
+	option dest 'vpn'
+	option src 'lan'
 
 config forwarding
 	option dest 'wan'
