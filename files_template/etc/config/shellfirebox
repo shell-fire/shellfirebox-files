@@ -354,10 +354,10 @@ config server
 	option vpnServerId '6'
 	option name 'Server 6'
 	option iso 'de'
-	option longitude '8.6854326725006'
-	option latitude '50.110636836714'
+	option longitude '11.167721'
+	option latitude '49.406841'
 	option host 'de.02.shellfirevpn.com'
-	option city 'Frankfurt'
+	option city 'Nuremberg'
 
 config server
 	option country 'Belgium'
@@ -486,10 +486,10 @@ config server
 	option vpnServerId '19'
 	option name 'Server 19'
 	option iso 'de'
-	option longitude '8.6854326725006'
-	option latitude '50.110636836714'
+	option longitude '11.167721'
+	option latitude '49.406841'
 	option host 'de.04.shellfirevpn.com'
-	option city 'Frankfurt'
+	option city 'Nuremberg'
 
 config server
 	option country 'Iceland'
@@ -607,8 +607,8 @@ config server
 	option vpnServerId '30'
 	option name 'Server 30'
 	option iso 'de'
-	option longitude '8.6854326725006'
-	option latitude '50.110636836714'
+	option longitude '11.167721'
+	option latitude '49.406841'
 	option host 'de.06.shellfirevpn.com'
 	option city 'Frankfurt'
 
@@ -684,10 +684,10 @@ config server
 	option vpnServerId '37'
 	option name 'Server 37'
 	option iso 'de'
-	option longitude '8.6854326725006'
-	option latitude '50.110636836714'
+	option longitude '11.167721'
+	option latitude '49.406841'
 	option host 'de.07.shellfirevpn.com'
-	option city 'Frankfurt'
+	option city 'Nuremberg'
 
 config server
 	option country 'Switzerland'
@@ -821,3 +821,79 @@ config server
 	option host 'pt.01.shellfirevpn.com'
 	option city 'Lisbon'
 
+config server
+	option country 'India'
+	option servertype 'PremiumPlus'
+	option vpnServerId '50'
+	option name 'Server 50'
+	option iso 'in'
+	option longitude '77.566667'
+	option latitude '12.966667'
+	option host 'in.01.shellfirevpn.com'
+	option city 'Bangalore'
+
+config server
+	option country 'Brazil'
+	option servertype 'PremiumPlus'
+	option vpnServerId '52'
+	option name 'Server 52'
+	option iso 'br'
+	option longitude '-46.633333'
+	option latitude '-23.55'
+	option host 'br.01.shellfirevpn.com'
+	option city 'Sao Paulo'
+
+config server
+	option country 'Germany'
+	option servertype 'PremiumPlus'
+	option vpnServerId '53'
+	option name 'Server 53'
+	option iso 'de'
+	option longitude '8.6854326725006'
+	option latitude '50.110636836714'
+	option host 'de.09.shellfirevpn.com'
+	option city 'Frankfurt'
+
+config server
+	option country 'Czech Republic'
+	option servertype 'PremiumPlus'
+	option vpnServerId '54'
+	option name 'Server 54'
+	option iso 'cz'
+	option longitude '14.416667'
+	option latitude '50.083333'
+	option host 'cz.01.shellfirevpn.com'
+	option city 'Prague'
+
+config server
+	option country 'Norway'
+	option servertype 'PremiumPlus'
+	option vpnServerId '55'
+	option name 'Server 55'
+	option iso 'no'
+	option longitude '10.733333'
+	option latitude '59.916667'
+	option host 'no.01.shellfirevpn.com'
+	option city 'Oslo'
+
+config server
+	option country 'Usa'
+	option servertype 'PremiumPlus'
+	option vpnServerId '56'
+	option name 'Server 56'
+	option iso 'us'
+	option longitude '-74.044444'
+	option latitude '40.689167'
+	option host 'us.07.shellfirevpn.com'
+	option city 'New York'
+
+config server
+	option country 'Germany'
+	option servertype 'PremiumPlus'
+	option vpnServerId '57'
+	option name 'Server 57'
+	option iso 'de'
+	option longitude '8.6854326725006'
+	option latitude '50.110636836714'
+	option host 'de.10.shellfirevpn.com'
+	option city 'Frankfurt'
