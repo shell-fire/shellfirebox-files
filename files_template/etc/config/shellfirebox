@@ -7,314 +7,6 @@ config general
 
 
 
-config webservicealias
-	option host '158.255.212.250'
-	option port '380'
-	option aliasId '1'
-	option ping '784'
-
-config webservicealias
-	option host '213.239.207.251'
-	option port '380'
-	option aliasId '2'
-	option ping '4429'
-
-config webservicealias
-	option host '213.239.207.252'
-	option port '380'
-	option aliasId '3'
-	option ping '857'
-
-config webservicealias
-	option host '176.10.126.15'
-	option port '380'
-	option aliasId '4'
-	option ping '1065'
-
-config webservicealias
-	option host '176.10.126.14'
-	option port '380'
-	option aliasId '5'
-	option ping '1891'
-
-config webservicealias
-	option host '176.57.129.88'
-	option port '380'
-	option aliasId '6'
-	option ping '793'
-
-config webservicealias
-	option host '192.71.249.26'
-	option port '380'
-	option aliasId '7'
-	option ping '860'
-
-config webservicealias
-	option host '46.246.93.202'
-	option port '380'
-	option aliasId '8'
-	option ping '1743'
-
-config webservicealias
-	option host '37.235.48.187'
-	option port '380'
-	option aliasId '9'
-	option ping '1360'
-
-config webservicealias
-	option host '174.34.178.140'
-	option port '380'
-	option aliasId '10'
-	option ping '10000000'
-
-config webservicealias
-	option host '174.34.178.139'
-	option port '380'
-	option aliasId '11'
-	option ping '2526'
-
-config webservicealias
-	option host '176.9.16.216'
-	option port '380'
-	option aliasId '12'
-	option ping '746'
-
-config webservicealias
-	option host '176.9.16.215'
-	option port '380'
-	option aliasId '13'
-	option ping '848'
-
-config webservicealias
-	option host '94.76.223.69'
-	option port '380'
-	option aliasId '14'
-	option ping '1292'
-
-config webservicealias
-	option host '94.76.223.68'
-	option port '380'
-	option aliasId '15'
-	option ping '910'
-
-config webservicealias
-	option host '76.73.44.164'
-	option port '380'
-	option aliasId '16'
-	option ping '3119'
-
-config webservicealias
-	option host '76.73.44.163'
-	option port '380'
-	option aliasId '17'
-	option ping '2886'
-
-config webservicealias
-	option host '149.210.145.204'
-	option port '380'
-	option aliasId '18'
-	option ping '863'
-
-config webservicealias
-	option host '149.210.145.168'
-	option port '380'
-	option aliasId '19'
-	option ping '739'
-
-config webservicealias
-	option host '192.95.24.110'
-	option port '380'
-	option aliasId '20'
-	option ping '2783'
-
-config webservicealias
-	option host '94.23.27.103'
-	option port '380'
-	option aliasId '21'
-	option ping '1057'
-
-config webservicealias
-	option host '76.73.85.27'
-	option port '380'
-	option aliasId '22'
-	option ping '3155'
-
-config webservicealias
-	option host '76.73.85.28'
-	option port '380'
-	option aliasId '23'
-	option ping '2840'
-
-config webservicealias
-	option host '176.57.141.68'
-	option port '380'
-	option aliasId '24'
-	option ping '912'
-
-config webservicealias
-	option host '176.57.141.83'
-	option port '380'
-	option aliasId '25'
-	option ping '982'
-
-config webservicealias
-	option host '37.235.49.49'
-	option port '380'
-	option aliasId '26'
-	option ping '1225'
-
-config webservicealias
-	option host '158.255.208.212'
-	option port '380'
-	option aliasId '27'
-	option ping '10000000'
-
-config webservicealias
-	option host '151.236.23.76'
-	option port '380'
-	option aliasId '28'
-	option ping '1149'
-
-config webservicealias
-	option host '151.236.18.125'
-	option port '380'
-	option aliasId '29'
-	option ping '1025'
-
-config webservicealias
-	option host '37.235.52.74'
-	option port '380'
-	option aliasId '30'
-	option ping '3538'
-
-config webservicealias
-	option host '37.235.55.134'
-	option port '380'
-	option aliasId '31'
-	option ping '951'
-
-config webservicealias
-	option host '46.108.39.238'
-	option port '380'
-	option aliasId '32'
-	option ping '1580'
-
-config webservicealias
-	option host '213.183.56.14'
-	option port '380'
-	option aliasId '33'
-	option ping '1251'
-
-config webservicealias
-	option host '88.82.108.63'
-	option port '380'
-	option aliasId '34'
-	option ping '908'
-
-config webservicealias
-	option host '162.252.172.111'
-	option port '380'
-	option aliasId '35'
-	option ping '1768'
-
-config webservicealias
-	option host '176.57.141.162'
-	option port '380'
-	option aliasId '36'
-	option ping '1398'
-
-config webservicealias
-	option host '50.97.229.74'
-	option port '380'
-	option aliasId '37'
-	option ping '2862'
-
-config webservicealias
-	option host '119.81.93.2'
-	option port '380'
-	option aliasId '38'
-	option ping '4320'
-
-config webservicealias
-	option host '168.1.6.136'
-	option port '380'
-	option aliasId '39'
-	option ping '4308'
-
-config webservicealias
-	option host '161.202.113.21'
-	option port '380'
-	option aliasId '40'
-	option ping '3871'
-
-config webservicealias
-	option host '185.4.134.183'
-	option port '380'
-	option aliasId '41'
-	option ping '10000000'
-
-config webservicealias
-	option host '104.152.44.66'
-	option port '380'
-	option aliasId '42'
-	option ping '1780'
-
-config webservicealias
-	option host '176.57.141.209'
-	option port '380'
-	option aliasId '43'
-	option ping '941'
-
-config webservicealias
-	option host '176.10.126.18'
-	option port '380'
-	option aliasId '44'
-	option ping '729'
-
-config webservicealias
-	option host '176.10.126.19'
-	option port '380'
-	option aliasId '45'
-	option ping '736'
-
-config webservicealias
-	option host 'www.shellfire.de'
-	option port '443'
-	option aliasId '46'
-	option ping '1027'
-
-config webservicealias
-	option host 'www.shellfire.net'
-	option port '443'
-	option aliasId '47'
-	option ping '1113'
-
-config webservicealias
-	option host 'www.shellfire.fr'
-	option port '443'
-	option aliasId '48'
-	option ping '1286'
-
-config webservicealias
-	option host '176.57.141.93'
-	option port '443'
-	option aliasId '49'
-	option ping '702'
-
-config webservicealias
-	option host '76.73.44.165'
-	option port '443'
-	option aliasId '50'
-	option ping '2450'
-
-config webservicealias
-	option host '174.34.178.141'
-	option port '443'
-	option aliasId '51'
-	option ping '2235'
-
-
-
 config server
 	option country 'Austria'
 	option servertype 'Premium'
@@ -833,6 +525,17 @@ config server
 	option city 'Bangalore'
 
 config server
+	option country 'France'
+	option servertype 'PremiumPlus'
+	option vpnServerId '51'
+	option name 'Server 51'
+	option iso 'fr'
+	option longitude '3.180833'
+	option latitude '50.689167'
+	option host 'fr.02.shellfirevpn.com'
+	option city 'Roubaix'
+
+config server
 	option country 'Brazil'
 	option servertype 'PremiumPlus'
 	option vpnServerId '52'
@@ -897,3 +600,335 @@ config server
 	option latitude '50.110636836714'
 	option host 'de.10.shellfirevpn.com'
 	option city 'Frankfurt'
+
+config server
+	option country 'Italy'
+	option servertype 'PremiumPlus'
+	option vpnServerId '58'
+	option name 'Server 58'
+	option iso 'it'
+	option longitude '9.183333'
+	option latitude '45.466667'
+	option host 'it.02.shellfirevpn.com'
+	option city 'Milan'
+
+config server
+	option country 'Canada'
+	option servertype 'PremiumPlus'
+	option vpnServerId '59'
+	option name 'Server 59'
+	option iso 'ca'
+	option longitude '-79.383087'
+	option latitude '43.66135'
+	option host 'ca.02.shellfirevpn.com'
+	option city 'Toronto'
+
+config webservicealias
+	option host '185.213.20.53'
+	option port '380'
+	option aliasId '88'
+
+config webservicealias
+	option host '78.46.79.239'
+	option port '380'
+	option aliasId '43'
+
+config webservicealias
+	option host '188.165.232.35'
+	option port '380'
+	option aliasId '81'
+
+config webservicealias
+	option host '173.234.39.186'
+	option port '380'
+	option aliasId '64'
+
+config webservicealias
+	option host '129.232.222.93'
+	option port '380'
+	option aliasId '77'
+
+config webservicealias
+	option host '37.235.49.49'
+	option port '380'
+	option aliasId '26'
+
+config webservicealias
+	option host '162.252.172.111'
+	option port '380'
+	option aliasId '35'
+
+config webservicealias
+	option host '5.254.2.66'
+	option port '380'
+	option aliasId '74'
+
+config webservicealias
+	option host '176.9.16.215'
+	option port '380'
+	option aliasId '13'
+
+config webservicealias
+	option host '46.246.93.202'
+	option port '380'
+	option aliasId '8'
+
+config webservicealias
+	option host '217.78.5.131'
+	option port '380'
+	option aliasId '76'
+
+config webservicealias
+	option host '185.150.28.32'
+	option port '380'
+	option aliasId '53'
+
+config webservicealias
+	option host '31.13.190.226'
+	option port '380'
+	option aliasId '87'
+
+config webservicealias
+	option host '139.59.63.233'
+	option port '380'
+	option aliasId '80'
+
+config webservicealias
+	option host '103.208.85.225'
+	option port '380'
+	option aliasId '68'
+
+config webservicealias
+	option host '185.100.86.106'
+	option port '380'
+	option aliasId '71'
+
+config webservicealias
+	option host '176.9.16.216'
+	option port '380'
+	option aliasId '12'
+
+config webservicealias
+	option host '162.252.172.147'
+	option port '380'
+	option aliasId '63'
+
+config webservicealias
+	option host '94.23.27.103'
+	option port '380'
+	option aliasId '21'
+
+config webservicealias
+	option host '5.254.14.162'
+	option port '380'
+	option aliasId '83'
+
+config webservicealias
+	option host '217.182.196.58'
+	option port '380'
+	option aliasId '36'
+
+config webservicealias
+	option host '192.71.249.26'
+	option port '380'
+	option aliasId '7'
+
+config webservicealias
+	option host '37.235.48.187'
+	option port '380'
+	option aliasId '9'
+
+config webservicealias
+	option host '176.126.83.180'
+	option port '380'
+	option aliasId '65'
+
+config webservicealias
+	option host '88.198.16.212'
+	option port '380'
+	option aliasId '70'
+
+config webservicealias
+	option host '185.90.61.186'
+	option port '380'
+	option aliasId '85'
+
+config webservicealias
+	option host '46.36.39.150'
+	option port '380'
+	option aliasId '84'
+
+config webservicealias
+	option host '163.172.209.132'
+	option port '380'
+	option aliasId '61'
+
+config webservicealias
+	option host '185.25.20.17'
+	option port '380'
+	option aliasId '41'
+
+config webservicealias
+	option host '192.95.24.110'
+	option port '380'
+	option aliasId '20'
+
+config webservicealias
+	option host '5.254.81.194'
+	option port '380'
+	option aliasId '42'
+
+config webservicealias
+	option host '37.235.52.74'
+	option port '380'
+	option aliasId '30'
+
+config webservicealias
+	option host 'www.shellfire.de'
+	option port '443'
+	option aliasId '46'
+
+config webservicealias
+	option host '23.110.53.139'
+	option port '380'
+	option aliasId '67'
+
+config webservicealias
+	option host '213.239.207.252'
+	option port '380'
+	option aliasId '3'
+
+config webservicealias
+	option host '213.183.56.14'
+	option port '380'
+	option aliasId '33'
+
+config webservicealias
+	option host '151.236.14.50'
+	option port '380'
+	option aliasId '54'
+
+config webservicealias
+	option host '198.144.156.58'
+	option port '380'
+	option aliasId '89'
+
+config webservicealias
+	option host '191.96.70.22'
+	option port '380'
+	option aliasId '82'
+
+config webservicealias
+	option host '37.235.55.134'
+	option port '380'
+	option aliasId '31'
+
+config webservicealias
+	option host '213.239.207.230'
+	option port '380'
+	option aliasId '58'
+
+config webservicealias
+	option host '185.186.79.121'
+	option port '380'
+	option aliasId '72'
+
+config webservicealias
+	option host '151.236.23.76'
+	option port '380'
+	option aliasId '28'
+
+config webservicealias
+	option host '78.46.80.118'
+	option port '380'
+	option aliasId '52'
+
+config webservicealias
+	option host '172.241.112.18'
+	option port '380'
+	option aliasId '11'
+
+config webservicealias
+	option host '194.68.44.238'
+	option port '380'
+	option aliasId '32'
+
+config webservicealias
+	option host '185.150.28.29'
+	option port '380'
+	option aliasId '62'
+
+config webservicealias
+	option host '37.235.1.182'
+	option port '380'
+	option aliasId '59'
+
+config webservicealias
+	option host '94.76.204.84'
+	option port '380'
+	option aliasId '15'
+
+config webservicealias
+	option host '148.251.83.57'
+	option port '380'
+	option aliasId '25'
+
+config webservicealias
+	option host '178.209.50.217'
+	option port '380'
+	option aliasId '78'
+
+config webservicealias
+	option host '185.123.101.19'
+	option port '380'
+	option aliasId '73'
+
+config webservicealias
+	option host '91.219.237.198'
+	option port '380'
+	option aliasId '75'
+
+config webservicealias
+	option host '139.99.178.30'
+	option port '380'
+	option aliasId '60'
+
+config webservicealias
+	option host 'www.shellfire.fr'
+	option port '443'
+	option aliasId '48'
+
+config webservicealias
+	option host '213.239.207.251'
+	option port '380'
+	option aliasId '2'
+
+config webservicealias
+	option host '185.244.215.130'
+	option port '380'
+	option aliasId '86'
+
+config webservicealias
+	option host '185.113.140.7'
+	option port '380'
+	option aliasId '79'
+
+config webservicealias
+	option host 'www.shellfire.net'
+	option port '443'
+	option aliasId '47'
+
+config webservicealias
+	option host '158.255.208.212'
+	option port '380'
+	option aliasId '27'
+
+config webservicealias
+	option host '212.117.180.220'
+	option port '380'
+	option aliasId '66'
+
+config webservicealias
+	option host '103.75.118.27'
+	option port '380'
+	option aliasId '69'
