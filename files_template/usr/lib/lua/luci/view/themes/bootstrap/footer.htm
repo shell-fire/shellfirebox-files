@@ -5,7 +5,6 @@
  Licensed to the public under the Apache License 2.0.
 -%>
 
-
 <%
 	local ver = require "luci.version"
 	local disp = require "luci.dispatcher"
@@ -14,6 +13,8 @@
 	local tree = disp.node()
 	local categories = disp.node_childs(tree)
 %>
+
+<!-- Shellfire Box modifications below - begin -->
 
 <script type="text/javascript">//<![CDATA[
 
@@ -40,9 +41,10 @@
 <a target="_new3"  href="https://<%:www.shellfire.net%>/datenschutzerklaerung/"><%:Privacy Statement%></a> -
 </p>
 
+<!-- [sf.box] end additional lines
 
    <footer>
-    <a href="http://luci.subsignal.org/">Powered by <%= ver.luciname %> (<%= ver.luciversion %>)</a> / <%= ver.distversion %>
+    <a href="https://github.com/openwrt/luci">Powered by <%= ver.luciname %> (<%= ver.luciversion %>)</a> / <%= ver.distversion %>
     <% if #categories > 1 then %>
      <ul class="breadcrumb pull-right" id="modemenu">
 	    <% for i, r in ipairs(categories) do %>
@@ -51,7 +53,7 @@
      </ul>
     <% end %>
    </footer>
-
+   </div>
   </div>
  </body>
 </html>

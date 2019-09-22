@@ -21,12 +21,16 @@ function s.cfgsections()
 	return { "_pass" }
 end
 
-function m.on_commit(map)
+function m.parse(map)
 	local v1 = pw1:formvalue("_pass")
 	local v2 = pw2:formvalue("_pass")
 
 	if v1 and v2 and #v1 > 0 and #v2 > 0 then
 		if v1 == v2 then
+			-- Shellfire Box modification below
+			-- following line commented out			
+			-- if luci.sys.user.setpasswd(luci.dispatcher.context.authuser, v1) == 0 then
+			-- and replaced by:
 			if luci.sys.user.setpasswd("root", v1) == 0 then
 				m.message = translate("Password successfully changed!")
 			else
@@ -36,6 +40,8 @@ function m.on_commit(map)
 			m.message = translate("Given password confirmation did not match, password not changed!")
 		end
 	end
+
+	Map.parse(map)
 end
 
 
@@ -102,16 +108,17 @@ end
 keys = s2:option(TextValue, "_data", "")
 keys.wrap    = "off"
 keys.rows    = 3
-keys.rmempty = false
 
 function keys.cfgvalue()
 	return fs.readfile("/etc/dropbear/authorized_keys") or ""
 end
 
 function keys.write(self, section, value)
-	if value then
-		fs.writefile("/etc/dropbear/authorized_keys", value:gsub("\r\n", "\n"))
-	end
+	return fs.writefile("/etc/dropbear/authorized_keys", value:gsub("\r\n", "\n"))
+end
+
+function keys.remove(self, section, value)
+	return fs.writefile("/etc/dropbear/authorized_keys", "")
 end
 
 end
