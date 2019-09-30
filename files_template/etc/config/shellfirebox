@@ -1,925 +1,1071 @@
-
-config general
-	option webserviceAliasId '48'
-	option connectionstate 'processDisconnected'
-	option autostartRequested 'true'
-	option connectionMode '0'
-
-
-
-config server
+﻿config server
 	option country 'Austria'
+	option iso 'at'
 	option servertype 'Premium'
 	option vpnServerId '3'
 	option name 'Server 3'
-	option iso 'at'
-	option longitude '16.366667'
-	option latitude '48.2'
+	option wireguardPublicKey 'tbhhsxM6ii0C1vjudtNdTGWrJa96knaUWdTCFp+boT8='
+	option longitude '0'
+	option latitude '0'
 	option host 'at.01.shellfirevpn.com'
 	option city 'Vienna'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'Premium'
 	option vpnServerId '4'
 	option name 'Server 4'
-	option iso 'de'
-	option longitude '11.167721'
-	option latitude '49.406841'
+	option wireguardPublicKey 'itjlUs/bywgaxTTN07rlbNp9qtGs4lWTmw7F+Un/vVE='
+	option longitude '0'
+	option latitude '0'
 	option host 'de.01.shellfirevpn.com'
 	option city 'Nuremberg'
 
 config server
 	option country 'Switzerland'
+	option iso 'ch'
 	option servertype 'Premium'
 	option vpnServerId '5'
 	option name 'Server 5'
-	option iso 'ch'
-	option longitude '8.516663'
-	option latitude '47.169441'
+	option wireguardPublicKey 'Ai/HfvfN026EdcwGmNDxzFO5JhNHyqewG0Pf8V/Ucjc='
+	option longitude '0'
+	option latitude '0'
 	option host 'ch.01.shellfirevpn.com'
 	option city 'Zug'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'Free'
 	option vpnServerId '6'
 	option name 'Server 6'
-	option iso 'de'
-	option longitude '11.167721'
-	option latitude '49.406841'
+	option longitude '0'
+	option latitude '0'
 	option host 'de.02.shellfirevpn.com'
 	option city 'Nuremberg'
 
 config server
 	option country 'Belgium'
+	option iso 'be'
 	option servertype 'Premium'
 	option vpnServerId '7'
 	option name 'Server 7'
-	option iso 'be'
-	option longitude '3.233333'
-	option latitude '51.216667'
+	option wireguardPublicKey '7XRf95Sa/m8BmJP99a7QcrMw3x+o2vlrI4yzQdk6NB4='
+	option longitude '0'
+	option latitude '0'
 	option host 'be.01.shellfirevpn.com'
 	option city 'Bruges'
 
 config server
 	option country 'Sweden'
+	option iso 'se'
 	option servertype 'Premium'
 	option vpnServerId '8'
 	option name 'Server 8'
-	option iso 'se'
-	option longitude '18.068611'
-	option latitude '59.329444'
+	option wireguardPublicKey 'g14Dc9RezQXtml4woj76YsbiyyH31qPmaNrYWRjs8HQ='
+	option longitude '0'
+	option latitude '0'
 	option host 'se.01.shellfirevpn.com'
 	option city 'Stockholm'
 
 config server
 	option country 'Poland'
+	option iso 'pl'
 	option servertype 'Premium'
 	option vpnServerId '9'
 	option name 'Server 9'
-	option iso 'pl'
-	option longitude '21.016667'
-	option latitude '52.233333'
+	option wireguardPublicKey 'BrUqeiEwbWR8btD9tJhtd3IHLSQS4O9zepsrMRS5qyw='
+	option longitude '0'
+	option latitude '0'
 	option host 'pl.01.shellfirevpn.com'
 	option city 'Warsaw'
 
 config server
 	option country 'Usa'
+	option iso 'us'
 	option servertype 'PremiumPlus'
 	option vpnServerId '10'
 	option name 'Server 10'
-	option iso 'us'
-	option longitude '-96.8'
-	option latitude '32.78'
+	option wireguardPublicKey 'SBcSGJM5MXe9W+zCIGXlPQsR0uo4aC8WfIwqfh2H0iA='
+	option longitude '0'
+	option latitude '0'
 	option host 'us.02.shellfirevpn.com'
 	option city 'Dallas'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'Premium'
 	option vpnServerId '11'
 	option name 'Server 11'
-	option iso 'de'
-	option longitude '11.167721'
-	option latitude '49.406841'
+	option wireguardPublicKey 'VMYLkUzS0s56+T2gqwEofAdj3O5Bq4sScRLlJ+IRy3w='
+	option longitude '0'
+	option latitude '0'
 	option host 'de.05.shellfirevpn.com'
 	option city 'Nuremberg'
 
 config server
 	option country 'United Kingdom'
+	option iso 'gb'
 	option servertype 'Premium'
 	option vpnServerId '12'
 	option name 'Server 12'
-	option iso 'gb'
-	option longitude '-0.973056'
-	option latitude '51.454167'
+	option wireguardPublicKey '7Qenpwkz61VrrJXM508rRxI8e/Nb2MM7odczLnqVREo='
+	option longitude '0'
+	option latitude '0'
 	option host 'uk.01.shellfirevpn.com'
 	option city 'Reading'
 
 config server
 	option country 'Usa'
+	option iso 'us'
 	option servertype 'Premium'
 	option vpnServerId '13'
 	option name 'Server 13'
-	option iso 'us'
-	option longitude '-74.044444'
-	option latitude '40.689167'
+	option wireguardPublicKey 's10'
+	option longitude '0'
+	option latitude '0'
 	option host 'us.01.shellfirevpn.com'
 	option city 'New York'
 
 config server
 	option country 'Netherlands'
+	option iso 'nl'
 	option servertype 'Premium'
 	option vpnServerId '14'
 	option name 'Server 14'
-	option iso 'nl'
-	option longitude '4.9'
-	option latitude '52.366667'
+	option wireguardPublicKey '3WHmE8DGVwQJD2CoseYbgNXsEGnp05V47306pL/mZ08='
+	option longitude '0'
+	option latitude '0'
 	option host 'nl.01.shellfirevpn.com'
 	option city 'Amsterdam'
 
 config server
 	option country 'Canada'
+	option iso 'ca'
 	option servertype 'Premium'
 	option vpnServerId '15'
 	option name 'Server 15'
-	option iso 'ca'
-	option longitude '-73.866667'
-	option latitude '45.316667'
+	option wireguardPublicKey 'yOTp3s6qxcpjrLr9x0CYDSLIr6kJwJhYdabXPL2UjnQ='
+	option longitude '0'
+	option latitude '0'
 	option host 'ca.01.shellfirevpn.com'
 	option city 'Beauharnois'
 
 config server
 	option country 'France'
+	option iso 'fr'
 	option servertype 'Premium'
 	option vpnServerId '16'
 	option name 'Server 16'
-	option iso 'fr'
-	option longitude '3.180833'
-	option latitude '50.689167'
+	option wireguardPublicKey 'Y/X+C3h0sB74gIHwQT8pKcP9AFpNXESayY1ozpU/y2c='
+	option longitude '0'
+	option latitude '0'
 	option host 'fr.01.shellfirevpn.com'
 	option city 'Roubaix'
 
 config server
 	option country 'Usa'
+	option iso 'us'
 	option servertype 'Free'
 	option vpnServerId '18'
 	option name 'Server 18'
-	option iso 'us'
-	option longitude '-87.684722'
-	option latitude '41.836944'
+	option longitude '0'
+	option latitude '0'
 	option host 'us.03.shellfirevpn.com'
 	option city 'Chicago'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'PremiumPlus'
 	option vpnServerId '19'
 	option name 'Server 19'
-	option iso 'de'
-	option longitude '11.167721'
-	option latitude '49.406841'
+	option wireguardPublicKey 'YCUkpcF+vLqLoQ1I2D9RSQPhDscn59JmGsjhvsh4NhE='
+	option longitude '0'
+	option latitude '0'
 	option host 'de.04.shellfirevpn.com'
 	option city 'Nuremberg'
 
 config server
 	option country 'Iceland'
+	option iso 'is'
 	option servertype 'PremiumPlus'
 	option vpnServerId '20'
 	option name 'Server 20'
-	option iso 'is'
-	option longitude '-21.954167'
-	option latitude '64.067833'
+	option wireguardPublicKey 'HNJuUrLtK1JqpuFCFVGSC6XLfToOlZziUdpGJxsVvkQ='
+	option longitude '0'
+	option latitude '0'
 	option host 'is.01.shellfirevpn.com'
 	option city 'Hafnarfjordur'
 
 config server
 	option country 'Hong Kong'
+	option iso 'hk'
 	option servertype 'Premium'
 	option vpnServerId '21'
 	option name 'Server 21'
-	option iso 'hk'
-	option longitude '114.188'
-	option latitude '22.267'
+	option wireguardPublicKey 'bxxW0yvL+neSLxKNGCTTkeAwvKLziYThvPeoJkxUaz4='
+	option longitude '0'
+	option latitude '0'
 	option host 'hk.01.shellfirevpn.com'
 	option city 'Hong Kong'
 
 config server
 	option country 'Spain'
+	option iso 'es'
 	option servertype 'Premium'
 	option vpnServerId '22'
 	option name 'Server 22'
-	option iso 'es'
-	option longitude '-3.683333'
-	option latitude '40.4'
+	option wireguardPublicKey 'mdx+KOY95Jb+Yc/Io00veDOuTX1IImMXV2R+WeTZ9AY='
+	option longitude '0'
+	option latitude '0'
 	option host 'es.01.shellfirevpn.com'
 	option city 'Madrid'
 
 config server
 	option country 'Italy'
+	option iso 'it'
 	option servertype 'Premium'
 	option vpnServerId '23'
 	option name 'Server 23'
-	option iso 'it'
-	option longitude '9.183333'
-	option latitude '45.466667'
+	option wireguardPublicKey 'xjo8ZuUpeLxrgFs96a/i28F0Kdv2WiOOOvPfuM4+ogE='
+	option longitude '0'
+	option latitude '0'
 	option host 'it.01.shellfirevpn.com'
 	option city 'Milan'
 
 config server
 	option country 'Chile'
+	option iso 'cl'
 	option servertype 'PremiumPlus'
 	option vpnServerId '24'
 	option name 'Server 24'
-	option iso 'cl'
-	option longitude '-71.516667'
-	option latitude '-33'
+	option wireguardPublicKey 'aYgHewKiJgcchvkCwSJL1NG3gs2HLRpWCurMSuvq5SA='
+	option longitude '0'
+	option latitude '4294967263'
 	option host 'cl.01.shellfirevpn.com'
 	option city 'Vina del Mar'
 
 config server
 	option country 'Isle of Man'
+	option iso 'im'
 	option servertype 'PremiumPlus'
 	option vpnServerId '25'
 	option name 'Server 25'
-	option iso 'im'
-	option longitude '-4.48172'
-	option latitude '54.14521'
+	option wireguardPublicKey '/LU8iJaXvSOjc9MlKWW5g95tXhitz24QIXu4w4zOS1c='
+	option longitude '0'
+	option latitude '0'
 	option host 'im.01.shellfirevpn.com'
 	option city 'Douglas'
 
 config server
 	option country 'Romania'
+	option iso 'ro'
 	option servertype 'Premium'
 	option vpnServerId '26'
 	option name 'Server 26'
-	option iso 'ro'
-	option longitude '26.103889'
-	option latitude '44.4325'
+	option wireguardPublicKey 'KKQV+1gCSfF33+ePmDe9gPgNHk4DikY/TaxT9b4FaCI='
+	option longitude '0'
+	option latitude '0'
 	option host 'ro.01.shellfirevpn.com'
 	option city 'Bucharest'
 
 config server
 	option country 'Russian Federation'
+	option iso 'ru'
 	option servertype 'Premium'
 	option vpnServerId '27'
 	option name 'Server 27'
-	option iso 'ru'
-	option longitude '37.616667'
-	option latitude '55.75'
+	option wireguardPublicKey 'ixE1M/rJqPwihnr7o+qjt9Dh883+mceRDgEQaXTO4y8='
+	option longitude '0'
+	option latitude '0'
 	option host 'ru.01.shellfirevpn.com'
 	option city 'Moscow'
 
 config server
 	option country 'Luxembourg'
+	option iso 'lu'
 	option servertype 'PremiumPlus'
 	option vpnServerId '28'
 	option name 'Server 28'
-	option iso 'lu'
-	option longitude '6.116667'
-	option latitude '49.6'
+	option wireguardPublicKey '//9GzfxdigyYJSnb/1XHCAlCkZP5OawKQAuNED3x3Fs='
+	option longitude '0'
+	option latitude '0'
 	option host 'lu.01.shellfirevpn.com'
 	option city 'Luxembourg'
 
 config server
 	option country 'Usa'
+	option iso 'us'
 	option servertype 'Free'
 	option vpnServerId '29'
 	option name 'Server 29'
-	option iso 'us'
-	option longitude '-87.684722'
-	option latitude '41.836944'
+	option longitude '0'
+	option latitude '0'
 	option host 'us.04.shellfirevpn.com'
 	option city 'Chicago'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'Premium'
 	option vpnServerId '30'
 	option name 'Server 30'
-	option iso 'de'
-	option longitude '11.167721'
-	option latitude '49.406841'
+	option wireguardPublicKey 'EOfeFOdzu/+3LWhvdswORgn7xgjrfIi/pXBgQUQKq2s='
+	option longitude '0'
+	option latitude '0'
 	option host 'de.06.shellfirevpn.com'
 	option city 'Frankfurt'
 
 config server
 	option country 'Usa'
+	option iso 'us'
 	option servertype 'Premium'
 	option vpnServerId '31'
 	option name 'Server 31'
-	option iso 'us'
-	option longitude '-118.25'
-	option latitude '34.05'
+	option wireguardPublicKey 'rQz9wr/S9NMg/Wjwj+4IiZXmT0g3qxsKg99+VhD7ugM='
+	option longitude '0'
+	option latitude '0'
 	option host 'us.05.shellfirevpn.com'
 	option city 'Los Angeles'
 
 config server
 	option country 'Singapore'
+	option iso 'sg'
 	option servertype 'PremiumPlus'
 	option vpnServerId '32'
 	option name 'Server 32'
-	option iso 'sg'
-	option longitude '103.833333'
-	option latitude '1.283333'
+	option wireguardPublicKey 'eO8D6uUcu+FHF/eUWf13aO6ztYZsfYqw3YlgYDfoqHA='
+	option longitude '0'
+	option latitude '0'
 	option host 'sg.01.shellfirevpn.com'
 	option city 'Singapore'
 
 config server
 	option country 'Australia'
+	option iso 'au'
 	option servertype 'PremiumPlus'
 	option vpnServerId '33'
 	option name 'Server 33'
-	option iso 'au'
-	option longitude '151.209444'
-	option latitude '-33.865'
+	option wireguardPublicKey '3NjH2VT1SX5zasfEO8kAFs0Q6wueFtn8m5FYDzT/VBk='
+	option longitude '0'
+	option latitude '0'
 	option host 'au.01.shellfirevpn.com'
 	option city 'Sydney'
 
 config server
 	option country 'Japan'
+	option iso 'jp'
 	option servertype 'PremiumPlus'
 	option vpnServerId '34'
 	option name 'Server 34'
-	option iso 'jp'
-	option longitude '139.683333'
-	option latitude '35.683333'
+	option wireguardPublicKey 'rSHqkDCCnCwOYrjD2aE+w/zdfU8eF7S81UYworWA4TA='
+	option longitude '0'
+	option latitude '0'
 	option host 'jp.01.shellfirevpn.com'
 	option city 'Tokyo'
 
 config server
 	option country 'Greece'
+	option iso 'gr'
 	option servertype 'PremiumPlus'
 	option vpnServerId '35'
 	option name 'Server 35'
-	option iso 'gr'
-	option longitude '25.133333'
-	option latitude '35.333333'
+	option wireguardPublicKey '3U/ukoE8xABnGrD3I41kPmsrLDT4g0f2AL60wPitPTk='
+	option longitude '0'
+	option latitude '0'
 	option host 'gr.01.shellfirevpn.com'
 	option city 'Heraklion'
 
 config server
 	option country 'Usa'
+	option iso 'us'
 	option servertype 'PremiumPlus'
 	option vpnServerId '36'
 	option name 'Server 36'
-	option iso 'us'
-	option longitude '-77.016389'
-	option latitude '38.904722'
+	option wireguardPublicKey '88wUrktdTnFzJ3/AcqKCLj0KpDb8XP/cN7gse9QWwHs='
+	option longitude '0'
+	option latitude '0'
 	option host 'us.06.shellfirevpn.com'
 	option city 'Washington DC'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'PremiumPlus'
 	option vpnServerId '37'
 	option name 'Server 37'
-	option iso 'de'
-	option longitude '11.167721'
-	option latitude '49.406841'
+	option wireguardPublicKey '437KfpHxJlzie5k1UwaAxdFT6Rngc+ibFuUSGM0WPk8='
+	option longitude '0'
+	option latitude '0'
 	option host 'de.07.shellfirevpn.com'
 	option city 'Nuremberg'
 
 config server
 	option country 'Switzerland'
+	option iso 'ch'
 	option servertype 'PremiumPlus'
 	option vpnServerId '38'
 	option name 'Server 38'
-	option iso 'ch'
-	option longitude '8.516663'
-	option latitude '47.169441'
+	option longitude '0'
+	option latitude '0'
 	option host 'ch.02.shellfirevpn.com'
 	option city 'Zug'
 
 config server
 	option country 'Netherlands'
+	option iso 'nl'
 	option servertype 'PremiumPlus'
 	option vpnServerId '39'
 	option name 'Server 39'
-	option iso 'nl'
-	option longitude '4.9'
-	option latitude '52.366667'
+	option longitude '0'
+	option latitude '0'
 	option host 'nl.02.shellfirevpn.com'
 	option city 'Amsterdam'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'PremiumPlus'
 	option vpnServerId '40'
 	option name 'Server 40'
-	option iso 'de'
-	option longitude '11.167721'
-	option latitude '49.406841'
+	option longitude '0'
+	option latitude '0'
 	option host 'de.08.shellfirevpn.com'
 	option city 'Nuremberg'
 
 config server
 	option country 'Finland'
+	option iso 'fi'
 	option servertype 'PremiumPlus'
 	option vpnServerId '41'
 	option name 'Server 41'
-	option iso 'fi'
-	option longitude '24.9375'
-	option latitude '60.170833'
+	option longitude '0'
+	option latitude '0'
 	option host 'fi.01.shellfirevpn.com'
 	option city 'Helsinki'
 
 config server
 	option country 'Denmark'
+	option iso 'dk'
 	option servertype 'Premium'
 	option vpnServerId '42'
 	option name 'Server 42'
-	option iso 'dk'
-	option longitude '12.568333'
-	option latitude '55.676111'
+	option longitude '0'
+	option latitude '0'
 	option host 'dk.01.shellfirevpn.com'
 	option city 'Copenhagen'
 
 config server
 	option country 'Turkey'
+	option iso 'tr'
 	option servertype 'Premium'
 	option vpnServerId '43'
 	option name 'Server 43'
-	option iso 'tr'
-	option longitude '28.955'
-	option latitude '41.013611'
+	option longitude '0'
+	option latitude '0'
 	option host 'tr.01.shellfirevpn.com'
 	option city 'Istanbul'
 
 config server
 	option country 'United Kingdom'
+	option iso 'gb'
 	option servertype 'PremiumPlus'
 	option vpnServerId '44'
 	option name 'Server 44'
-	option iso 'gb'
 	option longitude '0'
-	option latitude '51.507222'
+	option latitude '0'
 	option host 'uk.02.shellfirevpn.com'
 	option city 'London'
 
 config server
 	option country 'Hungary'
+	option iso 'hu'
 	option servertype 'Premium'
 	option vpnServerId '45'
 	option name 'Server 45'
-	option iso 'hu'
-	option longitude '19.051389'
-	option latitude '47.4925'
+	option longitude '0'
+	option latitude '0'
 	option host 'hu.01.shellfirevpn.com'
 	option city 'Budapest'
 
 config server
 	option country 'Ireland'
+	option iso 'ie'
 	option servertype 'PremiumPlus'
 	option vpnServerId '46'
 	option name 'Server 46'
-	option iso 'ie'
-	option longitude '-6.259722'
-	option latitude '53.347778'
+	option longitude '0'
+	option latitude '0'
 	option host 'ie.01.shellfirevpn.com'
 	option city 'Dublin'
 
 config server
 	option country 'South Africa'
+	option iso 'za'
 	option servertype 'PremiumPlus'
 	option vpnServerId '47'
 	option name 'Server 47'
-	option iso 'za'
-	option longitude '28.045556'
-	option latitude '-26.204444'
+	option longitude '0'
+	option latitude '0'
 	option host 'za.01.shellfirevpn.com'
 	option city 'Johannesburg'
 
 config server
 	option country 'Switzerland'
+	option iso 'ch'
 	option servertype 'PremiumPlus'
 	option vpnServerId '48'
 	option name 'Server 48'
-	option iso 'ch'
-	option longitude '8.55'
-	option latitude '47.366667'
+	option longitude '0'
+	option latitude '0'
 	option host 'ch.03.shellfirevpn.com'
-	option city 'Zurich'
+	option city 'Zug'
 
 config server
 	option country 'Portugal'
+	option iso 'pt'
 	option servertype 'Premium'
 	option vpnServerId '49'
 	option name 'Server 49'
-	option iso 'pt'
-	option longitude '-9.139444'
-	option latitude '38.713889'
+	option longitude '0'
+	option latitude '0'
 	option host 'pt.01.shellfirevpn.com'
 	option city 'Lisbon'
 
 config server
 	option country 'India'
+	option iso 'in'
 	option servertype 'PremiumPlus'
 	option vpnServerId '50'
 	option name 'Server 50'
-	option iso 'in'
-	option longitude '77.566667'
-	option latitude '12.966667'
+	option longitude '0'
+	option latitude '0'
 	option host 'in.01.shellfirevpn.com'
 	option city 'Bangalore'
 
 config server
 	option country 'France'
+	option iso 'fr'
 	option servertype 'PremiumPlus'
 	option vpnServerId '51'
 	option name 'Server 51'
-	option iso 'fr'
-	option longitude '3.180833'
-	option latitude '50.689167'
+	option longitude '0'
+	option latitude '0'
 	option host 'fr.02.shellfirevpn.com'
 	option city 'Roubaix'
 
 config server
 	option country 'Brazil'
+	option iso 'br'
 	option servertype 'PremiumPlus'
 	option vpnServerId '52'
 	option name 'Server 52'
-	option iso 'br'
-	option longitude '-46.633333'
-	option latitude '-23.55'
+	option longitude '0'
+	option latitude '0'
 	option host 'br.01.shellfirevpn.com'
 	option city 'Sao Paulo'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'PremiumPlus'
 	option vpnServerId '53'
 	option name 'Server 53'
-	option iso 'de'
-	option longitude '8.6854326725006'
-	option latitude '50.110636836714'
+	option longitude '0'
+	option latitude '0'
 	option host 'de.09.shellfirevpn.com'
 	option city 'Frankfurt'
 
 config server
 	option country 'Czech Republic'
+	option iso 'cz'
 	option servertype 'PremiumPlus'
 	option vpnServerId '54'
 	option name 'Server 54'
-	option iso 'cz'
-	option longitude '14.416667'
-	option latitude '50.083333'
+	option longitude '0'
+	option latitude '0'
 	option host 'cz.01.shellfirevpn.com'
 	option city 'Prague'
 
 config server
 	option country 'Norway'
+	option iso 'no'
 	option servertype 'PremiumPlus'
 	option vpnServerId '55'
 	option name 'Server 55'
-	option iso 'no'
-	option longitude '10.733333'
-	option latitude '59.916667'
+	option longitude '0'
+	option latitude '0'
 	option host 'no.01.shellfirevpn.com'
 	option city 'Oslo'
 
 config server
 	option country 'Usa'
+	option iso 'us'
 	option servertype 'PremiumPlus'
 	option vpnServerId '56'
 	option name 'Server 56'
-	option iso 'us'
-	option longitude '-74.044444'
-	option latitude '40.689167'
+	option wireguardPublicKey 'jATWOT5D3dtthYfeDM4MMTHHu/PntH+Liz9ykVQgVjU='
+	option longitude '0'
+	option latitude '0'
 	option host 'us.07.shellfirevpn.com'
 	option city 'New York'
 
 config server
 	option country 'Germany'
+	option iso 'de'
 	option servertype 'PremiumPlus'
 	option vpnServerId '57'
 	option name 'Server 57'
-	option iso 'de'
-	option longitude '8.6854326725006'
-	option latitude '50.110636836714'
+	option longitude '0'
+	option latitude '0'
 	option host 'de.10.shellfirevpn.com'
 	option city 'Frankfurt'
 
 config server
 	option country 'Italy'
+	option iso 'it'
 	option servertype 'PremiumPlus'
 	option vpnServerId '58'
 	option name 'Server 58'
-	option iso 'it'
-	option longitude '9.183333'
-	option latitude '45.466667'
+	option longitude '0'
+	option latitude '0'
 	option host 'it.02.shellfirevpn.com'
 	option city 'Milan'
 
 config server
 	option country 'Canada'
+	option iso 'ca'
 	option servertype 'PremiumPlus'
 	option vpnServerId '59'
 	option name 'Server 59'
-	option iso 'ca'
-	option longitude '-79.383087'
-	option latitude '43.66135'
+	option longitude '0'
+	option latitude '0'
 	option host 'ca.02.shellfirevpn.com'
 	option city 'Toronto'
 
-config webservicealias
-	option host '185.186.79.121'
-	option port '380'
-	option aliasId '72'
+config server
+	option country 'Sweden'
+	option iso 'se'
+	option servertype 'PremiumPlus'
+	option vpnServerId '60'
+	option name 'Server 60'
+	option longitude '0'
+	option latitude '0'
+	option host 'se.02.shellfirevpn.com'
+	option city 'Stockholm'
 
-config webservicealias
-	option host '185.150.28.29'
-	option port '380'
-	option aliasId '62'
+config server
+	option country 'Germany'
+	option iso 'de'
+	option servertype 'PremiumPlus'
+	option vpnServerId '61'
+	option name 'Server 61'
+	option wireguardPublicKey '7PVs1L930fEsLgqBcAekh7sjo5EgdaPjpm7JWO72hlQ='
+	option longitude '0'
+	option latitude '0'
+	option host 'de.11.shellfirevpn.com'
+	option city 'Nuremberg'
 
-config webservicealias
-	option host '148.251.46.238'
-	option port '380'
-	option aliasId '12'
+config server
+	option country 'Lithuania'
+	option iso 'lt'
+	option servertype 'PremiumPlus'
+	option vpnServerId '62'
+	option name 'Server 62'
+	option longitude '0'
+	option latitude '0'
+	option host 'lt.01.shellfirevpn.com'
+	option city 'Vilnius'
+
+config server
+	option country 'Bulgaria'
+	option iso 'bg'
+	option servertype 'PremiumPlus'
+	option vpnServerId '63'
+	option name 'Server 63'
+	option longitude '0'
+	option latitude '0'
+	option host 'bg.01.shellfirevpn.com'
+	option city 'Sofia'
 
 config webservicealias
 	option host 'www.shellfire.fr'
 	option port '443'
 	option aliasId '48'
+	option ping '2278'
 
 config webservicealias
-	option host '185.150.28.32'
+	option host '203.23.128.158'
 	option port '380'
-	option aliasId '53'
-
-config webservicealias
-	option host '178.209.50.217'
-	option port '380'
-	option aliasId '78'
-
-config webservicealias
-	option host '185.100.86.106'
-	option port '380'
-	option aliasId '71'
-
-config webservicealias
-	option host '78.46.79.239'
-	option port '380'
-	option aliasId '43'
-
-config webservicealias
-	option host '5.254.81.194'
-	option port '380'
-	option aliasId '42'
-
-config webservicealias
-	option host '46.36.39.150'
-	option port '380'
-	option aliasId '84'
-
-config webservicealias
-	option host '88.198.16.212'
-	option port '380'
-	option aliasId '70'
-
-config webservicealias
-	option host 'www.shellfire.net'
-	option port '443'
-	option aliasId '47'
-
-config webservicealias
-	option host '185.25.20.17'
-	option port '380'
-	option aliasId '41'
-
-config webservicealias
-	option host '176.126.83.180'
-	option port '380'
-	option aliasId '65'
-
-config webservicealias
-	option host '139.99.178.30'
-	option port '380'
-	option aliasId '60'
-
-config webservicealias
-	option host '185.244.215.130'
-	option port '380'
-	option aliasId '86'
-
-config webservicealias
-	option host '185.213.20.53'
-	option port '380'
-	option aliasId '88'
-
-config webservicealias
-	option host '5.254.2.66'
-	option port '380'
-	option aliasId '74'
-
-config webservicealias
-	option host '213.239.207.251'
-	option port '380'
-	option aliasId '2'
-
-config webservicealias
-	option host 'www.shellfire.de'
-	option port '443'
-	option aliasId '46'
-
-config webservicealias
-	option host '46.246.93.202'
-	option port '380'
-	option aliasId '8'
-
-config webservicealias
-	option host '162.252.172.111'
-	option port '380'
-	option aliasId '35'
-
-config webservicealias
-	option host '37.235.1.182'
-	option port '380'
-	option aliasId '59'
-
-config webservicealias
-	option host '37.235.49.49'
-	option port '380'
-	option aliasId '26'
-
-config webservicealias
-	option host '213.183.56.14'
-	option port '380'
-	option aliasId '33'
-
-config webservicealias
-	option host '188.165.232.35'
-	option port '380'
-	option aliasId '81'
-
-config webservicealias
-	option host '148.251.83.57'
-	option port '380'
-	option aliasId '25'
-
-config webservicealias
-	option host '23.110.53.139'
-	option port '380'
-	option aliasId '67'
-
-config webservicealias
-	option host '37.235.55.134'
-	option port '380'
-	option aliasId '31'
-
-config webservicealias
-	option host '163.172.209.132'
-	option port '380'
-	option aliasId '61'
-
-config webservicealias
-	option host '185.90.61.186'
-	option port '380'
-	option aliasId '85'
-
-config webservicealias
-	option host '91.219.237.198'
-	option port '380'
-	option aliasId '75'
-
-config webservicealias
-	option host '198.144.156.58'
-	option port '380'
-	option aliasId '89'
-
-config webservicealias
-	option host '194.68.44.238'
-	option port '380'
-	option aliasId '32'
-
-config webservicealias
-	option host '162.252.172.147'
-	option port '380'
-	option aliasId '63'
-
-config webservicealias
-	option host '151.236.23.76'
-	option port '380'
-	option aliasId '28'
-
-config webservicealias
-	option host '94.76.204.84'
-	option port '380'
-	option aliasId '15'
-
-config webservicealias
-	option host '31.13.190.226'
-	option port '380'
-	option aliasId '87'
-
-config webservicealias
-	option host '94.23.27.103'
-	option port '380'
-	option aliasId '21'
-
-config webservicealias
-	option host '191.96.70.22'
-	option port '380'
-	option aliasId '82'
+	option aliasId '27'
+	option ping '3699'
 
 config webservicealias
 	option host '185.113.140.7'
 	option port '380'
 	option aliasId '79'
+	option ping '1704'
 
 config webservicealias
-	option host '37.235.52.74'
+	option host '5.9.97.217'
 	option port '380'
-	option aliasId '30'
-
-config webservicealias
-	option host '185.123.101.19'
-	option port '380'
-	option aliasId '73'
-
-config webservicealias
-	option host '217.182.196.58'
-	option port '380'
-	option aliasId '36'
-
-config webservicealias
-	option host '192.71.249.26'
-	option port '380'
-	option aliasId '7'
-
-config webservicealias
-	option host '78.46.80.118'
-	option port '380'
-	option aliasId '52'
-
-config webservicealias
-	option host '213.239.207.252'
-	option port '380'
-	option aliasId '3'
-
-config webservicealias
-	option host '158.255.208.212'
-	option port '380'
-	option aliasId '27'
-
-config webservicealias
-	option host '173.234.39.186'
-	option port '380'
-	option aliasId '64'
-
-config webservicealias
-	option host '37.235.48.187'
-	option port '380'
-	option aliasId '9'
+	option aliasId '58'
+	option ping '1355'
 
 config webservicealias
 	option host '5.254.14.162'
 	option port '380'
 	option aliasId '83'
+	option ping '1839'
 
 config webservicealias
-	option host '212.117.180.220'
+	option host '185.186.79.121'
 	option port '380'
-	option aliasId '66'
+	option aliasId '72'
+	option ping '2165'
 
 config webservicealias
-	option host '213.239.207.230'
+	option host '5.9.122.238'
 	option port '380'
-	option aliasId '58'
+	option aliasId '25'
+	option ping '1140'
 
 config webservicealias
-	option host '139.59.63.233'
+	option host '37.235.52.74'
 	option port '380'
-	option aliasId '80'
+	option aliasId '30'
+	option ping '4744'
 
 config webservicealias
-	option host '103.208.85.225'
+	option host '139.99.66.134'
 	option port '380'
 	option aliasId '68'
+	option ping '3546'
 
 config webservicealias
-	option host '192.95.24.110'
+	option host '217.78.5.131'
 	option port '380'
-	option aliasId '20'
+	option aliasId '76'
+	option ping '1272'
 
 config webservicealias
-	option host '172.241.112.18'
+	option host '5.9.60.246'
 	option port '380'
-	option aliasId '11'
+	option aliasId '90'
+	option ping '1351'
 
 config webservicealias
-	option host '151.236.14.50'
+	option host '162.252.172.100'
 	option port '380'
-	option aliasId '54'
+	option aliasId '35'
+	option ping '2553'
 
 config webservicealias
-	option host '129.232.222.93'
+	option host '31.13.189.118'
 	option port '380'
-	option aliasId '77'
+	option aliasId '86'
+	option ping '2295'
+
+config webservicealias
+	option host '162.252.172.147'
+	option port '380'
+	option aliasId '63'
+	option ping '2910'
+
+config webservicealias
+	option host '185.150.28.29'
+	option port '380'
+	option aliasId '62'
+	option ping '1156'
+
+config webservicealias
+	option host '191.96.70.22'
+	option port '380'
+	option aliasId '82'
+	option ping '3519'
+
+config webservicealias
+	option host '173.234.39.186'
+	option port '380'
+	option aliasId '64'
+	option ping '2109'
+
+config webservicealias
+	option host '46.166.163.89'
+	option port '380'
+	option aliasId '92'
+	option ping '1931'
+
+config webservicealias
+	option host '95.174.64.102'
+	option port '380'
+	option aliasId '88'
+	option ping '2224'
+
+config webservicealias
+	option host '37.235.55.134'
+	option port '380'
+	option aliasId '31'
+	option ping '1284'
+
+config webservicealias
+	option host '37.235.49.49'
+	option port '380'
+	option aliasId '26'
+	option ping '2164'
+
+config webservicealias
+	option host '213.183.56.14'
+	option port '380'
+	option aliasId '33'
+	option ping '2223'
+
+config webservicealias
+	option host '185.100.86.106'
+	option port '380'
+	option aliasId '71'
+	option ping '1330'
+
+config webservicealias
+	option host '5.9.66.151'
+	option port '380'
+	option aliasId '52'
+	option ping '1382'
+
+config webservicealias
+	option host '91.219.237.198'
+	option port '380'
+	option aliasId '75'
+	option ping '2157'
+
+config webservicealias
+	option host '185.25.20.17'
+	option port '380'
+	option aliasId '41'
+	option ping '2047'
 
 config webservicealias
 	option host '103.75.118.27'
 	option port '380'
 	option aliasId '69'
+	option ping '3919'
+
+config webservicealias
+	option host '37.235.48.187'
+	option port '380'
+	option aliasId '9'
+	option ping '1341'
+
+config webservicealias
+	option host '185.90.61.186'
+	option port '380'
+	option aliasId '85'
+	option ping '1550'
+
+config webservicealias
+	option host '23.106.80.10'
+	option port '380'
+	option aliasId '67'
+	option ping '3034'
+
+config webservicealias
+	option host '94.23.27.103'
+	option port '380'
+	option aliasId '21'
+	option ping '2203'
+
+config webservicealias
+	option host '37.143.130.69'
+	option port '380'
+	option aliasId '28'
+	option ping '1596'
+
+config webservicealias
+	option host '148.251.46.238'
+	option port '380'
+	option aliasId '12'
+	option ping '1393'
+
+config webservicealias
+	option host '78.46.95.38'
+	option port '380'
+	option aliasId '70'
+	option ping '2107'
+
+config webservicealias
+	option host 'www.shellfire.de'
+	option port '443'
+	option aliasId '46'
+	option ping '1151'
+
+config webservicealias
+	option host '176.126.83.180'
+	option port '380'
+	option aliasId '65'
+	option ping '1334'
+
+config webservicealias
+	option host '141.98.102.10'
+	option port '380'
+	option aliasId '87'
+	option ping '2166'
+
+config webservicealias
+	option host '192.99.216.170'
+	option port '380'
+	option aliasId '89'
+	option ping '3423'
+
+config webservicealias
+	option host '5.254.81.194'
+	option port '380'
+	option aliasId '42'
+	option ping '2927'
+
+config webservicealias
+	option host '185.150.28.32'
+	option port '380'
+	option aliasId '53'
+	option ping '1114'
+
+config webservicealias
+	option host '37.235.1.182'
+	option port '380'
+	option aliasId '59'
+	option ping '1860'
+
+config webservicealias
+	option host '188.165.232.35'
+	option port '380'
+	option aliasId '81'
+	option ping '2210'
+
+config webservicealias
+	option host '129.232.222.93'
+	option port '380'
+	option aliasId '77'
+	option ping '3976'
+
+config webservicealias
+	option host '185.123.101.19'
+	option port '380'
+	option aliasId '73'
+	option ping '1498'
+
+config webservicealias
+	option host '94.76.204.84'
+	option port '380'
+	option aliasId '15'
+	option ping '1885'
+
+config webservicealias
+	option host '192.95.24.110'
+	option port '380'
+	option aliasId '20'
+	option ping '2589'
+
+config webservicealias
+	option host '185.186.78.168'
+	option port '380'
+	option aliasId '91'
+	option ping '1272'
+
+config webservicealias
+	option host '163.172.214.246'
+	option port '380'
+	option aliasId '54'
+	option ping '2695'
+
+config webservicealias
+	option host '74.63.210.6'
+	option port '380'
+	option aliasId '11'
+	option ping '2510'
+
+config webservicealias
+	option host '46.246.93.202'
+	option port '380'
+	option aliasId '8'
+	option ping '1606'
+
+config webservicealias
+	option host '217.182.196.58'
+	option port '380'
+	option aliasId '36'
+	option ping '1850'
+
+config webservicealias
+	option host '192.71.249.26'
+	option port '380'
+	option aliasId '7'
+	option ping '1176'
+
+config webservicealias
+	option host '185.150.28.100'
+	option port '380'
+	option aliasId '78'
+	option ping '1262'
+
+config webservicealias
+	option host '194.68.44.238'
+	option port '380'
+	option aliasId '32'
+	option ping '1895'
+
+config webservicealias
+	option host '139.99.178.30'
+	option port '380'
+	option aliasId '60'
+	option ping '3742'
+
+config webservicealias
+	option host '5.254.2.66'
+	option port '380'
+	option aliasId '74'
+	option ping '1235'
+
+config webservicealias
+	option host '136.243.72.228'
+	option port '380'
+	option aliasId '43'
+	option ping '4173'
+
+config webservicealias
+	option host 'www.shellfire.net'
+	option port '443'
+	option aliasId '47'
+	option ping '1101'
+
+config webservicealias
+	option host '163.172.209.132'
+	option port '380'
+	option aliasId '61'
+	option ping '4231'
+
+config webservicealias
+	option host '46.36.39.150'
+	option port '380'
+	option aliasId '84'
+	option ping '1350'
+
+config webservicealias
+	option host '193.9.115.56'
+	option port '380'
+	option aliasId '93'
+	option ping '2011'
+
+config webservicealias
+	option host '139.59.63.233'
+	option port '380'
+	option aliasId '80'
+	option ping '2961'
+
+config webservicealias
+	option host '92.38.163.95'
+	option port '380'
+	option aliasId '66'
+	option ping '1138'
 
