@@ -42,15 +42,11 @@ config interface 'vpn'
 
 config interface 'wg0'
 	option proto 'wireguard'
-	option private_key '4I02Mlsb9AiJPF0JYXpyAbqlwi1qkpv/R9OIS3Tgv18='
 	option auto '0'
-	option addresses '10.44.45.42'
 
 config wireguard_wg0
 	list allowed_ips '0.0.0.0/0'
 	option endpoint_port '51820'
 	option persistent_keepalive '25'
 	option route_allowed_ips '1'
-	option public_key '7XRf95Sa/m8BmJP99a7QcrMw3x+o2vlrI4yzQdk6NB4='
-	option endpoint_host '192.71.249.26'
 
