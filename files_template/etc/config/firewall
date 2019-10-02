@@ -5,23 +5,6 @@ config defaults
 	option output 'ACCEPT'
 	option forward 'REJECT'
 
-config zone
-	option name 'lan'
-	option input 'ACCEPT'
-	option output 'ACCEPT'
-	option forward 'ACCEPT'
-	option network 'lan'
-	option family 'ipv4'
-
-config zone
-	option name 'wan'
-	option input 'REJECT'
-	option output 'ACCEPT'
-	option forward 'REJECT'
-	option mtu_fix '1'
-	option family 'ipv4'
-	option network 'wan'
-
 config rule
 	option name 'Allow-DHCP-Renew'
 	option src 'wan'
@@ -45,17 +28,60 @@ config rule
 	option family 'ipv4'
 	option target 'ACCEPT'
 
+config rule
+	option name 'Allow-IPSec-ESP'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'esp'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-ISAKMP'
+	option src 'wan'
+	option dest 'lan'
+	option dest_port '500'
+	option proto 'udp'
+	option target 'ACCEPT'
+
 config include
 	option path '/etc/firewall.user'
 
 config zone
-	option name 'vpn'
-	option forward 'REJECT'
+	option name 'lan'
+	option input 'ACCEPT'
 	option output 'ACCEPT'
-	option network 'vpn'
+	option forward 'ACCEPT'
+	option network 'lan'
+	option family 'ipv4'
+
+config zone
+	option name 'wan'
 	option input 'REJECT'
-	option mtu_fix '1'
+	option output 'ACCEPT'
+	option forward 'REJECT'
 	option masq '1'
+	option mtu_fix '1'
+	option network 'wan wan6'
+	option family 'ipv4'
+
+config zone
+	option name 'vpn'
+	option input 'REJECT'
+	option output 'ACCEPT'
+	option forward 'REJECT'
+	option masq '1'
+	option mtu_fix '1'
+	option network 'vpn'
+	option family 'ipv4'
+
+config zone
+	option output 'ACCEPT'
+	option name 'wg'
+	option input 'REJECT'
+	option masq '1'
+	option mtu_fix '1'
+	option network 'wg0'
+	option forward 'ACCEPT'
 
 config forwarding
 	option dest 'vpn'
@@ -63,5 +89,9 @@ config forwarding
 
 config forwarding
 	option dest 'wan'
+	option src 'lan'
+
+config forwarding
+	option dest 'wg'
 	option src 'lan'
 
