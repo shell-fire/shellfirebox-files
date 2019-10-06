@@ -133,7 +133,7 @@ function httpdispatch(request, prefix)
 end
 
 local function require_post_security(target)
-	if type(target) == "table" then
+	if false and type(target) == "table" then
 		if type(target.post) == "table" then
 			local param_name, required_val, request_val
 
