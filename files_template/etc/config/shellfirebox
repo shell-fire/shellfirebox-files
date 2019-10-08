@@ -1,8 +1,9 @@
+
 config general
-	option webserviceAliasId '48'
-	option connectionstate 'processDisconnected'
-	option autostartRequested 'true'
+	option webserviceAliasId '46'
 	option connectionMode '0'
+	option autostartRequested 'true'
+	option connectionstate 'processDisconnected'
 
 config server
 	option country 'Austria'
@@ -46,6 +47,7 @@ config server
 	option servertype 'Free'
 	option vpnServerId '6'
 	option name 'Server 6'
+	option wireguardPublicKey '16ILxph+LK1H5Ib+hfkmVGo1ZywV/OpWsbcaGWrSmWw='
 	option longitude '0'
 	option latitude '0'
 	option host 'de.02.shellfirevpn.com'
@@ -129,7 +131,7 @@ config server
 	option servertype 'Premium'
 	option vpnServerId '13'
 	option name 'Server 13'
-	option wireguardPublicKey 's10'
+	option wireguardPublicKey 'vH5VF8b0H7XSzJnnrD/HEMnXMQbUCD2CC+Z/y2dJl0o='
 	option longitude '0'
 	option latitude '0'
 	option host 'us.01.shellfirevpn.com'
@@ -165,7 +167,7 @@ config server
 	option servertype 'Premium'
 	option vpnServerId '16'
 	option name 'Server 16'
-	option wireguardPublicKey 'Y/X+C3h0sB74gIHwQT8pKcP9AFpNXESayY1ozpU/y2c='
+	option wireguardPublicKey 'X+4PY491tiOlsJQP7oScuRLiLisfNrIuThAnGQ4nbgY='
 	option longitude '0'
 	option latitude '0'
 	option host 'fr.01.shellfirevpn.com'
@@ -177,6 +179,7 @@ config server
 	option servertype 'Free'
 	option vpnServerId '18'
 	option name 'Server 18'
+	option wireguardPublicKey 'zvracw3bdgov1FfByLBTzcRbmIqUuFZHH20jZqGhJww='
 	option longitude '0'
 	option latitude '0'
 	option host 'us.03.shellfirevpn.com'
@@ -308,6 +311,7 @@ config server
 	option servertype 'Free'
 	option vpnServerId '29'
 	option name 'Server 29'
+	option wireguardPublicKey 'I9701Tf4dXLysx7Q7muA9o23ZTKm1UillhdmlM68bBM='
 	option longitude '0'
 	option latitude '0'
 	option host 'us.04.shellfirevpn.com'
@@ -415,6 +419,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '38'
 	option name 'Server 38'
+	option wireguardPublicKey 'ip8keG8gneNjGR4zaajS8XOuPGfG6NSKOYBeb0duMTc='
 	option longitude '0'
 	option latitude '0'
 	option host 'ch.02.shellfirevpn.com'
@@ -426,6 +431,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '39'
 	option name 'Server 39'
+	option wireguardPublicKey 'p2gCZclnZKlK8K4wUaXBkPN1ZeefDxsXxHcc9iMlGmk='
 	option longitude '0'
 	option latitude '0'
 	option host 'nl.02.shellfirevpn.com'
@@ -437,6 +443,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '40'
 	option name 'Server 40'
+	option wireguardPublicKey 'lTM3JF0DPrteMrDEl3CHFrTw725aZxIzekSIcu9we08='
 	option longitude '0'
 	option latitude '0'
 	option host 'de.08.shellfirevpn.com'
@@ -448,6 +455,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '41'
 	option name 'Server 41'
+	option wireguardPublicKey 'PGseBH+goI1b6Ecf17BSju2RjB8uLjrnhqe/rXg8eBA='
 	option longitude '0'
 	option latitude '0'
 	option host 'fi.01.shellfirevpn.com'
@@ -459,6 +467,7 @@ config server
 	option servertype 'Premium'
 	option vpnServerId '42'
 	option name 'Server 42'
+	option wireguardPublicKey 'e4jOTxh9BFr4DJ9YbXR1WmIXjQlRXCLmE3L2cfU2LnQ='
 	option longitude '0'
 	option latitude '0'
 	option host 'dk.01.shellfirevpn.com'
@@ -470,6 +479,7 @@ config server
 	option servertype 'Premium'
 	option vpnServerId '43'
 	option name 'Server 43'
+	option wireguardPublicKey '+y0+d8RCgNTIvVAe3d2IVZC782DTnVX2DbLL2tpWQA8='
 	option longitude '0'
 	option latitude '0'
 	option host 'tr.01.shellfirevpn.com'
@@ -481,6 +491,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '44'
 	option name 'Server 44'
+	option wireguardPublicKey 'UA+oYPn+Cby3SKeSZy/1mPiSZ9qHRgdt47ujkL8kpUU='
 	option longitude '0'
 	option latitude '0'
 	option host 'uk.02.shellfirevpn.com'
@@ -492,6 +503,7 @@ config server
 	option servertype 'Premium'
 	option vpnServerId '45'
 	option name 'Server 45'
+	option wireguardPublicKey 'SJ5L1ggECbPDSCL6BMn2Oj+3sYyElsKo8og+AWeSpFM='
 	option longitude '0'
 	option latitude '0'
 	option host 'hu.01.shellfirevpn.com'
@@ -503,6 +515,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '46'
 	option name 'Server 46'
+	option wireguardPublicKey 'Iq72zJr5lw/dxVmdYmC+dVadPIxp6w72+YxDfdY6HG8='
 	option longitude '0'
 	option latitude '0'
 	option host 'ie.01.shellfirevpn.com'
@@ -514,6 +527,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '47'
 	option name 'Server 47'
+	option wireguardPublicKey 'DDxWaT0iIjSUJIpA5CpojorD27aZRwJVsQLSG0RxOy8='
 	option longitude '0'
 	option latitude '0'
 	option host 'za.01.shellfirevpn.com'
@@ -525,6 +539,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '48'
 	option name 'Server 48'
+	option wireguardPublicKey 'PTO1Eo809Y3wUmV670zVKiU6S+dB4ZSlfW4keNZJIwQ='
 	option longitude '0'
 	option latitude '0'
 	option host 'ch.03.shellfirevpn.com'
@@ -536,6 +551,7 @@ config server
 	option servertype 'Premium'
 	option vpnServerId '49'
 	option name 'Server 49'
+	option wireguardPublicKey '+3Lk+o2dGQ7Ur5QaJX5peMIqdmoBfAiS5y7dU8esBlM='
 	option longitude '0'
 	option latitude '0'
 	option host 'pt.01.shellfirevpn.com'
@@ -547,6 +563,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '50'
 	option name 'Server 50'
+	option wireguardPublicKey 'PP15W96nd83oJVvxpIv4D9uMVQxrsHbSgKjRcNVzcFo='
 	option longitude '0'
 	option latitude '0'
 	option host 'in.01.shellfirevpn.com'
@@ -558,6 +575,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '51'
 	option name 'Server 51'
+	option wireguardPublicKey 'xJe7Db9lzIxtyoSqmhfllXGzMXWiSRqLHhu4Tl4SUSg='
 	option longitude '0'
 	option latitude '0'
 	option host 'fr.02.shellfirevpn.com'
@@ -569,6 +587,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '52'
 	option name 'Server 52'
+	option wireguardPublicKey 'HeY7MyfzGie6FTRDPnmoFDWuzdsx++jsxdhTV5hkt3E='
 	option longitude '0'
 	option latitude '0'
 	option host 'br.01.shellfirevpn.com'
@@ -580,6 +599,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '53'
 	option name 'Server 53'
+	option wireguardPublicKey 'CWdispQoWMOAQx4HgGJC9gM2Ej5swRGtMkrVJHSjqm4='
 	option longitude '0'
 	option latitude '0'
 	option host 'de.09.shellfirevpn.com'
@@ -591,6 +611,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '54'
 	option name 'Server 54'
+	option wireguardPublicKey 'Gk2Ec52C8T328pSBIT7dmEN8tyWcSQ53k+U7YtDueiQ='
 	option longitude '0'
 	option latitude '0'
 	option host 'cz.01.shellfirevpn.com'
@@ -602,6 +623,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '55'
 	option name 'Server 55'
+	option wireguardPublicKey 'o22ikND1lGIWPRke6DT0OiTNAaNBHrnerrb8xiMpti4='
 	option longitude '0'
 	option latitude '0'
 	option host 'no.01.shellfirevpn.com'
@@ -625,6 +647,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '57'
 	option name 'Server 57'
+	option wireguardPublicKey 'OJUtRJHtWUnmyWx2qhl+i0KqjxnPPHLtdda3NtwKsSg='
 	option longitude '0'
 	option latitude '0'
 	option host 'de.10.shellfirevpn.com'
@@ -636,6 +659,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '58'
 	option name 'Server 58'
+	option wireguardPublicKey 'tZ18XhVNomLscCCeznm2jBRg9ly/BEs7YByLfkWDFEM='
 	option longitude '0'
 	option latitude '0'
 	option host 'it.02.shellfirevpn.com'
@@ -647,6 +671,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '59'
 	option name 'Server 59'
+	option wireguardPublicKey '4WBvY5Mf85WTIGNtl9611+aRnrQswe9e5diAtGEGEnk='
 	option longitude '0'
 	option latitude '0'
 	option host 'ca.02.shellfirevpn.com'
@@ -658,6 +683,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '60'
 	option name 'Server 60'
+	option wireguardPublicKey 'jPEwQNClJzy8A7SCfUFwCoZLDSMLeBxe+e3/odAPm2Q='
 	option longitude '0'
 	option latitude '0'
 	option host 'se.02.shellfirevpn.com'
@@ -681,6 +707,7 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '62'
 	option name 'Server 62'
+	option wireguardPublicKey '9jp06reBwqNENm+TtNTTSvau+zPHSv5Se0WfTqgsmSA='
 	option longitude '0'
 	option latitude '0'
 	option host 'lt.01.shellfirevpn.com'
@@ -692,386 +719,338 @@ config server
 	option servertype 'PremiumPlus'
 	option vpnServerId '63'
 	option name 'Server 63'
+	option wireguardPublicKey 'JTZF0QwnJTAcoCdwg8GQXFCZHzWeg+amOL/ORTB8m2w='
 	option longitude '0'
 	option latitude '0'
 	option host 'bg.01.shellfirevpn.com'
 	option city 'Sofia'
 
 config webservicealias
-	option host 'www.shellfire.fr'
-	option port '443'
-	option aliasId '48'
-	option ping '2278'
-
-config webservicealias
-	option host '203.23.128.158'
-	option port '380'
-	option aliasId '27'
-	option ping '3699'
-
-config webservicealias
-	option host '185.113.140.7'
-	option port '380'
-	option aliasId '79'
-	option ping '1704'
-
-config webservicealias
-	option host '5.9.97.217'
-	option port '380'
-	option aliasId '58'
-	option ping '1355'
-
-config webservicealias
-	option host '5.254.14.162'
-	option port '380'
-	option aliasId '83'
-	option ping '1839'
-
-config webservicealias
-	option host '185.186.79.121'
-	option port '380'
-	option aliasId '72'
-	option ping '2165'
-
-config webservicealias
-	option host '5.9.122.238'
-	option port '380'
-	option aliasId '25'
-	option ping '1140'
-
-config webservicealias
-	option host '37.235.52.74'
-	option port '380'
-	option aliasId '30'
-	option ping '4744'
-
-config webservicealias
-	option host '139.99.66.134'
-	option port '380'
-	option aliasId '68'
-	option ping '3546'
-
-config webservicealias
-	option host '217.78.5.131'
-	option port '380'
-	option aliasId '76'
-	option ping '1272'
-
-config webservicealias
-	option host '5.9.60.246'
-	option port '380'
-	option aliasId '90'
-	option ping '1351'
-
-config webservicealias
-	option host '162.252.172.100'
-	option port '380'
-	option aliasId '35'
-	option ping '2553'
-
-config webservicealias
-	option host '31.13.189.118'
-	option port '380'
-	option aliasId '86'
-	option ping '2295'
-
-config webservicealias
-	option host '162.252.172.147'
-	option port '380'
-	option aliasId '63'
-	option ping '2910'
-
-config webservicealias
 	option host '185.150.28.29'
 	option port '380'
 	option aliasId '62'
-	option ping '1156'
-
-config webservicealias
-	option host '191.96.70.22'
-	option port '380'
-	option aliasId '82'
-	option ping '3519'
-
-config webservicealias
-	option host '173.234.39.186'
-	option port '380'
-	option aliasId '64'
-	option ping '2109'
-
-config webservicealias
-	option host '46.166.163.89'
-	option port '380'
-	option aliasId '92'
-	option ping '1931'
-
-config webservicealias
-	option host '95.174.64.102'
-	option port '380'
-	option aliasId '88'
-	option ping '2224'
-
-config webservicealias
-	option host '37.235.55.134'
-	option port '380'
-	option aliasId '31'
-	option ping '1284'
-
-config webservicealias
-	option host '37.235.49.49'
-	option port '380'
-	option aliasId '26'
-	option ping '2164'
-
-config webservicealias
-	option host '213.183.56.14'
-	option port '380'
-	option aliasId '33'
-	option ping '2223'
-
-config webservicealias
-	option host '185.100.86.106'
-	option port '380'
-	option aliasId '71'
-	option ping '1330'
-
-config webservicealias
-	option host '5.9.66.151'
-	option port '380'
-	option aliasId '52'
-	option ping '1382'
-
-config webservicealias
-	option host '91.219.237.198'
-	option port '380'
-	option aliasId '75'
-	option ping '2157'
-
-config webservicealias
-	option host '185.25.20.17'
-	option port '380'
-	option aliasId '41'
-	option ping '2047'
-
-config webservicealias
-	option host '103.75.118.27'
-	option port '380'
-	option aliasId '69'
-	option ping '3919'
-
-config webservicealias
-	option host '37.235.48.187'
-	option port '380'
-	option aliasId '9'
-	option ping '1341'
-
-config webservicealias
-	option host '185.90.61.186'
-	option port '380'
-	option aliasId '85'
-	option ping '1550'
-
-config webservicealias
-	option host '23.106.80.10'
-	option port '380'
-	option aliasId '67'
-	option ping '3034'
-
-config webservicealias
-	option host '94.23.27.103'
-	option port '380'
-	option aliasId '21'
-	option ping '2203'
-
-config webservicealias
-	option host '37.143.130.69'
-	option port '380'
-	option aliasId '28'
-	option ping '1596'
-
-config webservicealias
-	option host '148.251.46.238'
-	option port '380'
-	option aliasId '12'
-	option ping '1393'
-
-config webservicealias
-	option host '78.46.95.38'
-	option port '380'
-	option aliasId '70'
-	option ping '2107'
-
-config webservicealias
-	option host 'www.shellfire.de'
-	option port '443'
-	option aliasId '46'
-	option ping '1151'
-
-config webservicealias
-	option host '176.126.83.180'
-	option port '380'
-	option aliasId '65'
-	option ping '1334'
-
-config webservicealias
-	option host '141.98.102.10'
-	option port '380'
-	option aliasId '87'
-	option ping '2166'
-
-config webservicealias
-	option host '192.99.216.170'
-	option port '380'
-	option aliasId '89'
-	option ping '3423'
-
-config webservicealias
-	option host '5.254.81.194'
-	option port '380'
-	option aliasId '42'
-	option ping '2927'
-
-config webservicealias
-	option host '185.150.28.32'
-	option port '380'
-	option aliasId '53'
-	option ping '1114'
-
-config webservicealias
-	option host '37.235.1.182'
-	option port '380'
-	option aliasId '59'
-	option ping '1860'
-
-config webservicealias
-	option host '188.165.232.35'
-	option port '380'
-	option aliasId '81'
-	option ping '2210'
-
-config webservicealias
-	option host '129.232.222.93'
-	option port '380'
-	option aliasId '77'
-	option ping '3976'
-
-config webservicealias
-	option host '185.123.101.19'
-	option port '380'
-	option aliasId '73'
-	option ping '1498'
-
-config webservicealias
-	option host '94.76.204.84'
-	option port '380'
-	option aliasId '15'
-	option ping '1885'
-
-config webservicealias
-	option host '192.95.24.110'
-	option port '380'
-	option aliasId '20'
-	option ping '2589'
-
-config webservicealias
-	option host '185.186.78.168'
-	option port '380'
-	option aliasId '91'
-	option ping '1272'
-
-config webservicealias
-	option host '163.172.214.246'
-	option port '380'
-	option aliasId '54'
-	option ping '2695'
-
-config webservicealias
-	option host '74.63.210.6'
-	option port '380'
-	option aliasId '11'
-	option ping '2510'
-
-config webservicealias
-	option host '46.246.93.202'
-	option port '380'
-	option aliasId '8'
-	option ping '1606'
-
-config webservicealias
-	option host '217.182.196.58'
-	option port '380'
-	option aliasId '36'
-	option ping '1850'
-
-config webservicealias
-	option host '192.71.249.26'
-	option port '380'
-	option aliasId '7'
-	option ping '1176'
-
-config webservicealias
-	option host '185.150.28.100'
-	option port '380'
-	option aliasId '78'
-	option ping '1262'
-
-config webservicealias
-	option host '194.68.44.238'
-	option port '380'
-	option aliasId '32'
-	option ping '1895'
-
-config webservicealias
-	option host '139.99.178.30'
-	option port '380'
-	option aliasId '60'
-	option ping '3742'
-
-config webservicealias
-	option host '5.254.2.66'
-	option port '380'
-	option aliasId '74'
-	option ping '1235'
 
 config webservicealias
 	option host '136.243.72.228'
 	option port '380'
 	option aliasId '43'
-	option ping '4173'
+	option ping '3074'
 
 config webservicealias
-	option host 'www.shellfire.net'
+	option host '95.174.64.102'
+	option port '380'
+	option aliasId '88'
+	option ping '4026'
+
+config webservicealias
+	option host '185.150.28.100'
+	option port '380'
+	option aliasId '78'
+	option ping '3595'
+
+config webservicealias
+	option host '37.235.1.182'
+	option port '380'
+	option aliasId '59'
+	option ping '3552'
+
+config webservicealias
+	option host 'www.shellfire.fr'
 	option port '443'
-	option aliasId '47'
-	option ping '1101'
+	option aliasId '48'
+	option ping '3557'
 
 config webservicealias
-	option host '163.172.209.132'
+	option host '46.246.93.202'
 	option port '380'
-	option aliasId '61'
-	option ping '4231'
+	option aliasId '8'
+	option ping '3497'
 
 config webservicealias
-	option host '46.36.39.150'
+	option host '91.219.237.198'
 	option port '380'
-	option aliasId '84'
-	option ping '1350'
+	option aliasId '75'
+	option ping '3401'
+
+config webservicealias
+	option host '173.234.39.186'
+	option port '380'
+	option aliasId '64'
+	option ping '3451'
+
+config webservicealias
+	option host '139.99.178.30'
+	option port '380'
+	option aliasId '60'
+	option ping '4357'
+
+config webservicealias
+	option host '188.165.232.35'
+	option port '380'
+	option aliasId '81'
+	option ping '2835'
+
+config webservicealias
+	option host '185.186.78.168'
+	option port '380'
+	option aliasId '91'
+	option ping '2834'
+
+config webservicealias
+	option host '185.25.20.17'
+	option port '380'
+	option aliasId '41'
+	option ping '2836'
+
+config webservicealias
+	option host '162.252.172.100'
+	option port '380'
+	option aliasId '35'
+	option ping '3299'
+
+config webservicealias
+	option host '74.63.210.6'
+	option port '380'
+	option aliasId '11'
+	option ping '10000000'
 
 config webservicealias
 	option host '193.9.115.56'
 	option port '380'
 	option aliasId '93'
-	option ping '2011'
 
 config webservicealias
-	option host '139.59.63.233'
+	option host '5.9.66.151'
 	option port '380'
-	option aliasId '80'
-	option ping '2961'
+	option aliasId '52'
+
+config webservicealias
+	option host '139.99.66.134'
+	option port '380'
+	option aliasId '68'
+
+config webservicealias
+	option host '103.75.118.27'
+	option port '380'
+	option aliasId '69'
+
+config webservicealias
+	option host '194.68.44.238'
+	option port '380'
+	option aliasId '32'
+
+config webservicealias
+	option host '31.13.189.118'
+	option port '380'
+	option aliasId '86'
+
+config webservicealias
+	option host 'www.shellfire.net'
+	option port '443'
+	option aliasId '47'
+
+config webservicealias
+	option host '37.235.55.134'
+	option port '380'
+	option aliasId '31'
+
+config webservicealias
+	option host '163.172.214.246'
+	option port '380'
+	option aliasId '54'
+
+config webservicealias
+	option host '5.254.14.162'
+	option port '380'
+	option aliasId '83'
+
+config webservicealias
+	option host '5.9.97.217'
+	option port '380'
+	option aliasId '58'
+
+config webservicealias
+	option host '213.183.56.14'
+	option port '380'
+	option aliasId '33'
+
+config webservicealias
+	option host '185.123.101.19'
+	option port '380'
+	option aliasId '73'
+
+config webservicealias
+	option host '129.232.222.93'
+	option port '380'
+	option aliasId '77'
+
+config webservicealias
+	option host '5.9.60.246'
+	option port '380'
+	option aliasId '90'
+
+config webservicealias
+	option host '163.172.209.132'
+	option port '380'
+	option aliasId '61'
+
+config webservicealias
+	option host '37.235.48.187'
+	option port '380'
+	option aliasId '9'
+
+config webservicealias
+	option host '37.235.52.74'
+	option port '380'
+	option aliasId '30'
 
 config webservicealias
 	option host '92.38.163.95'
 	option port '380'
 	option aliasId '66'
-	option ping '1138'
+
+config webservicealias
+	option host '46.36.39.150'
+	option port '380'
+	option aliasId '84'
+
+config webservicealias
+	option host '176.126.83.180'
+	option port '380'
+	option aliasId '65'
+
+config webservicealias
+	option host '185.90.61.186'
+	option port '380'
+	option aliasId '85'
+
+config webservicealias
+	option host '162.252.172.147'
+	option port '380'
+	option aliasId '63'
+
+config webservicealias
+	option host '94.76.204.84'
+	option port '380'
+	option aliasId '15'
+
+config webservicealias
+	option host '139.59.63.233'
+	option port '380'
+	option aliasId '80'
+
+config webservicealias
+	option host '148.251.46.238'
+	option port '380'
+	option aliasId '12'
+
+config webservicealias
+	option host '37.143.130.69'
+	option port '380'
+	option aliasId '28'
+
+config webservicealias
+	option host '192.99.216.170'
+	option port '380'
+	option aliasId '89'
+
+config webservicealias
+	option host '5.254.81.194'
+	option port '380'
+	option aliasId '42'
+
+config webservicealias
+	option host '217.78.5.131'
+	option port '380'
+	option aliasId '76'
+
+config webservicealias
+	option host '78.46.95.38'
+	option port '380'
+	option aliasId '70'
+
+config webservicealias
+	option host '46.166.163.89'
+	option port '380'
+	option aliasId '92'
+
+config webservicealias
+	option host '185.113.140.7'
+	option port '380'
+	option aliasId '79'
+
+config webservicealias
+	option host '185.186.79.121'
+	option port '380'
+	option aliasId '72'
+
+config webservicealias
+	option host '37.235.49.49'
+	option port '380'
+	option aliasId '26'
+
+config webservicealias
+	option host '217.182.196.58'
+	option port '380'
+	option aliasId '36'
+
+config webservicealias
+	option host '191.96.70.22'
+	option port '380'
+	option aliasId '82'
+
+config webservicealias
+	option host '141.98.102.10'
+	option port '380'
+	option aliasId '87'
+
+config webservicealias
+	option host '185.100.86.106'
+	option port '380'
+	option aliasId '71'
+
+config webservicealias
+	option host 'www.shellfire.de'
+	option port '443'
+	option aliasId '46'
+
+config webservicealias
+	option host '5.254.2.66'
+	option port '380'
+	option aliasId '74'
+
+config webservicealias
+	option host '185.150.28.32'
+	option port '380'
+	option aliasId '53'
+
+config webservicealias
+	option host '192.71.249.26'
+	option port '380'
+	option aliasId '7'
+
+config webservicealias
+	option host '5.9.122.238'
+	option port '380'
+	option aliasId '25'
+
+config webservicealias
+	option host '23.106.80.10'
+	option port '380'
+	option aliasId '67'
+
+config webservicealias
+	option host '94.23.27.103'
+	option port '380'
+	option aliasId '21'
+
+config webservicealias
+	option host '192.95.24.110'
+	option port '380'
+	option aliasId '20'
+
+config webservicealias
+	option host '203.23.128.158'
+	option port '380'
+	option aliasId '27'
 
