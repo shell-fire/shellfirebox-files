@@ -25,6 +25,16 @@
 		
 		var initialLanguageText = "<%= getAjaxLanguageText() %>";
 		$("#languageLink").text(initialLanguageText);
+
+		var initialSelectedLanguage = "<%= getAjaxLanguageId() %>";
+		$("#_lang option[id=lang-" + initialSelectedLanguage + "]").attr("selected", "selected");
+
+		$("#_lang").change(function() {
+			var selectedValue = $("#_lang").val();
+			XHR.get('<%= build_url("admin/services/shellfirebox") %>/ajax_handler/', { performAction: 1, action: "setLanguage", param: selectedValue }, function(x, something) {
+				location.reload();
+			});
+		});
 	});
 
 //]]></script>
@@ -32,7 +42,16 @@
 <% dispatcher = require "luci.dispatcher" %>
 <p>
 <a class="btn fa fa-wrench" id="advancedModeToggle" href="<%=dispatcher.build_url("admin/services/shellfirebox/toggleAdvancedMode") %>"></a>
-<a class="btn fa fa-language" id="languageLink" href="<%=dispatcher.build_url("admin/services/shellfirebox/toggleLanguage") %>"></a>
+<%:Select language%>
+<select class="cbi-input-select" id="_lang" name="_lang" size="1">
+	<option id="lang-auto" value="auto" data-index="1">auto</option>
+	<option id="lang-de" value="de" data-index="2">Deutsch (German)</option>
+	<option id="lang-en" value="en" data-index="3">English</option>
+	<option id="lang-es" value="es" data-index="4">Espanol (Spanish)</option>
+	<option id="lang-fr" value="fr" data-index="5">Francais (French)</option>
+	<option id="lang-it" value="it" data-index="6">Italiano (Italian)</option>
+	<option id="lang-pt" value="pt" data-index="7">Portugues (Portuguese)</option>
+</select>
 </p>
 <p>
 &copy; 2019 by Shellfire Gattung &amp; Behr GbR - 
