@@ -1,4 +1,4 @@
-config wifi-device 'radio0'
+config wifi-device 'radio1'
         option type 'mac80211'
         option channel '11'
         option hwmode '11g'
@@ -8,7 +8,7 @@ config wifi-device 'radio0'
         option country '00'
 
 config wifi-iface
-        option device 'radio0'
+        option device 'radio1'
         option network 'lan'
         option mode 'ap'
         option ssid 'THE_SSID'
