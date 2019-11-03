@@ -18,6 +18,9 @@ echo $(uci get system.@system[0].hostname) > /proc/sys/kernel/hostname
 /etc/init.d/cron start
 /usr/bin/crontab /etc/crontabs/root
 
+# disable dropbear by default
+/etc/init.d/dropbear disable
+
 # create link (hash) for shellfire-ca.crt
 # hash has been created before with command 
 # HASH=`openssl x509 -hash -noout -in members.dyndns.org.cer`.0
