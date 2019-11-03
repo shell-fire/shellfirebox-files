@@ -1,14 +1,14 @@
-config wifi-device 'radio1'
+config wifi-device 'radio0'
         option type 'mac80211'
         option channel '11'
         option hwmode '11g'
-        option path '10180000.wmac'
+        option path 'platform/qca953x_wmac'
         option htmode 'HT20'
         option txpower '20'
         option country '00'
 
 config wifi-iface
-        option device 'radio1'
+        option device 'radio0'
         option network 'lan'
         option mode 'ap'
         option ssid 'THE_SSID'
