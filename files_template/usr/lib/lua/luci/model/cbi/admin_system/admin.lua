@@ -33,6 +33,10 @@ function m.parse(map)
 			-- and replaced by:
 			if luci.sys.user.setpasswd("root", v1) == 0 then
 				m.message = translate("Password successfully changed!")
+				-- start dropbear && enable autostart dropbear
+				luci.sys.exec("service dropbear start")
+				luci.sys.exec("rm /etc/rc.d/K50dropbear")
+				luci.sys.exec("ln -s /etc/init.d/dropbear /etc/rc.d/K50dropbear")
 			else
 				m.message = translate("Unknown Error, password not changed!")
 			end
