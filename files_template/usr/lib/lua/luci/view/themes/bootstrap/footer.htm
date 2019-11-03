@@ -31,7 +31,7 @@
 
 		$("#_lang").change(function() {
 			var selectedValue = $("#_lang").val();
-			XHR.get('<%= build_url("admin/services/shellfirebox") %>/ajax_handler/', { performAction: 1, action: "setLanguage", param: selectedValue }, function(x, something) {
+			XHR.get('<%= url("admin/services/shellfirebox") %>/ajax_handler/', { performAction: 1, action: "setLanguage", param: selectedValue }, function(x, something) {
 				location.reload();
 			});
 		});
@@ -41,7 +41,7 @@
 
 <% dispatcher = require "luci.dispatcher" %>
 <p>
-<a class="btn fa fa-wrench" id="advancedModeToggle" href="<%=dispatcher.build_url("admin/services/shellfirebox/toggleAdvancedMode") %>"></a>
+<a class="btn fa fa-wrench" id="advancedModeToggle" href="<%= url("admin/services/shellfirebox/toggleAdvancedMode") %>"></a>
 <%:Select language%>
 <select class="cbi-input-select" id="_lang" name="_lang" size="1">
 	<option id="lang-auto" value="auto" data-index="1">auto</option>
