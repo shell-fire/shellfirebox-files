@@ -37,6 +37,8 @@ function m.parse(map)
 				luci.sys.exec("service dropbear start")
 				luci.sys.exec("rm /etc/rc.d/K50dropbear")
 				luci.sys.exec("ln -s /etc/init.d/dropbear /etc/rc.d/K50dropbear")
+				luci.sys.exec("rm /etc/rc.d/S19dropbear")
+				luci.sys.exec("ln -s /etc/init.d/dropbear /etc/rc.d/S19dropbear")
 			else
 				m.message = translate("Unknown Error, password not changed!")
 			end
