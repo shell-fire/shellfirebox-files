@@ -1,4 +1,5 @@
 THE_MINUTE THE_HOUR * * * /usr/lib/lua/luci/shellfirebox/scripts/updater.sh >> /tmp/syslog.log 2>&1
 THE_MINUTE THE_HOUR * * * /usr/sbin/logrotate -f -s /tmp/logrotate.state /etc/logrotate.conf
+THE_MINUTE THE_HOUR * * * /etc/init.d/log restart
 
 # whitespace required
