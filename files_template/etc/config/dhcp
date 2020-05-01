@@ -15,10 +15,6 @@ config dnsmasq
 	option leasefile '/tmp/dhcp.leases'
 	option resolvfile '/tmp/resolv.conf.auto'
 	option localservice '1'
-	list server '8.8.8.8'
-	list server '8.8.4.4'
-	list server '151.236.6.6'
-	list server '151.236.7.7'
 	option noresolv '1'
 
 config dhcp 'lan'
