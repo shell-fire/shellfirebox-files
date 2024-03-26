@@ -1,6 +1,6 @@
 #!/bin/bash -v
 
-cd openwrt-imagebuilder-18.06.4
+cd openwrt-imagebuilder-minibox
 
 rm -rf files
 cp -R ~/git/shellfirebox-files/files_template files
@@ -46,12 +46,14 @@ echo "$SFBOX_UID" > files/etc/sfboxuid
 
 sed -i -- "s/THE_WPA_KEY/$WPA_KEY/g" $WIRELESS
 sed -i -- "s/THE_SSID/$SSID/g" $WIRELESS
-w
+
 echo "BOX_ID=$BOX_ID	SSID=$SSID	WPA_KEY=$WPA_KEY	FILENAME_FACTORY=$DEST_FILENAME_FACTORY	FILENAME_SYSUPGRADE=$DEST_FILENAME_SYSUPGRADE	SFBOX_UID=$SFBOX_UID" >> ~/$SECRETS_FILE
 
 # make clean
 
-make image PROFILE="minibox-v3" PACKAGES="openvpn-openssl wget ca-certificates luci luci-i18n-base-de luci luci-i18n-base-en luci luci-i18n-base-it luci luci-i18n-base-fr luci luci-i18n-base-es luci luci-i18n-base-pt luci-app-shellfirebox luci-i18n-shellfirebox-de luci-i18n-shellfirebox-it luci-i18n-shellfirebox-es luci-i18n-shellfirebox-fr luci-i18n-shellfirebox-pt luci-i18n-shellfirebox-en luasec kmod-wireguard wireguard-tools luci-proto-wireguard luci-lib-json -ppp -ppp-mod-pppoe -kmod-usb-core -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev" FILES=files/
+make image PROFILE="minibox-v3" PACKAGES="openvpn-openssl wget ca-certificates luci luci-i18n-base-de luci-i18n-base-en luci-i18n-base-it luci-i18n-base-fr luci-i18n-base-es luci-i18n-base-pt luci-app-shellfirebox luci-i18n-shellfirebox-de luci-i18n-shellfirebox-it luci-i18n-shellfirebox-es luci-i18n-shellfirebox-fr luci-i18n-shellfirebox-pt luci-i18n-shellfirebox-en luasec kmod-wireguard wireguard-tools luci-proto-wireguard luci-lib-json -ppp -ppp-mod-pppoe -kmod-usb-core -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev" FILES=files/
+#make -j4
+
 
 
 # current stuff
@@ -65,8 +67,8 @@ make image PROFILE="minibox-v3" PACKAGES="openvpn-openssl wget ca-certificates l
 # make image PACKAGES="openvpn-openssl openssl-util wget ca-certificates luci luci-i18n-base-de luci-app-shellfirebox luci-i18n-shellfirebox-de luasec luci-lib-json obfsproxy -ppp -ppp-mod-pppoe -kmod-usb-core -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev" FILES=files/
 
 
-cp bin/targets/ramips/mt7620/openwrt-18.06.4-ramips-mt7620-wt3020-8M-squashfs-sysupgrade.bin ~/$ROM_DIR/$DEST_FILENAME_SYSUPGRADE
-cp bin/targets/ramips/mt7620/openwrt-18.06.4-ramips-mt7620-wt3020-8M-squashfs-factory.bin ~/$ROM_DIR/$DEST_FILENAME_FACTORY
+cp bin/targets/ar71xx/generic/openwrt-ar71xx-generic-minibox-v3-squashfs-sysupgrade.bin ~/$ROM_DIR/$DEST_FILENAME_SYSUPGRADE
+cp bin/targets/ar71xx/generic/openwrt-ar71xx-generic-minibox-v3-squashfs-factory.bin ~/$ROM_DIR/$DEST_FILENAME_FACTORY
 
 
 echo "generated WPA_KEY: $WPA_KEY"

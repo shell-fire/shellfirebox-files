@@ -8,7 +8,7 @@ die () {
 echo $1 | grep -E -q '^[0-9]+$' || die "Numeric argument required, $1 provided"
 
 FILENAME="sfbox-$1-sysupgrade.bin"
-FILEPATH="OpenWrt-ImageBuilder-15.05-rc2/shellfire-boxes/$FILENAME"
+FILEPATH="shellfire-boxes-2017/$FILENAME"
 
 scp $FILEPATH root@10.30.20.1:/tmp/
 
