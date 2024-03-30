@@ -1,9 +1,6 @@
 #!/bin/sh
 
 uci batch <<-EOF
-	# set luci theme to Shellfire Box non-advanced/regular mode
-	set luci.main.mediaurlbase=/luci-static/shellfirebox
-	commit luci
 	# set hostname to ShellfireBox
 	set system.@system[0].hostname=ShellfireBox
 	commit system

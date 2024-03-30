@@ -28,3 +28,4 @@ confirm () {
 }
 
 confirm && ssh root@192.168.1.1 sysupgrade -n -v /tmp/$FILENAME
+ssh-keygen -f "/home/flo/.ssh/known_hosts" -R "192.168.1.1"

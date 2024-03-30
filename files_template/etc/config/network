@@ -1,6 +1,6 @@
 
 config interface 'loopback'
-	option ifname 'lo'
+	option device 'lo'
 	option proto 'static'
 	option ipaddr '127.0.0.1'
 	option netmask '255.0.0.0'
@@ -8,16 +8,20 @@ config interface 'loopback'
 config globals 'globals'
 	option ula_prefix 'fde2:ff53:2024::/48'
 
+config device
+        option name 'br-lan'
+        option type 'bridge'
+        list ports 'eth1'
+
 config interface 'lan'
-	option ifname 'THE_LAN_IFNAME'
-	option type 'bridge'
+	option device 'br-lan'
 	option proto 'static'
 	option ipaddr '10.30.20.1'
 	option netmask '255.255.255.0'
 	option ip6assign '60'
 
 config interface 'wan'
-	option ifname 'THE_WAN_IFNAME'
+	option device 'eth0'
 	option force_link '1'
 	option proto 'dhcp'
 
@@ -38,7 +42,7 @@ config switch_vlan
 
 config interface 'vpn'
 	option proto 'none'
-	option ifname 'tun0'
+	option device 'tun0'
 
 config interface 'wg0'
 	option proto 'wireguard'
