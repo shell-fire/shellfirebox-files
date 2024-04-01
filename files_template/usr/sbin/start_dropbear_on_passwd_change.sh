@@ -28,6 +28,8 @@ while IFS= read -r line; do
             echo "[start_dropbear_on_passwd_change.sh] Password set for root in $file_changed. Start dropbear, removing dropbear starter from autostart."
             /etc/init.d/dropbear start
             rm /etc/rc.d/S98dropbear_starter_on_passwd_change
+			rm /www/index.html
+			mv /www/index_rootpw_set.html /www/index.html
             break
         else
             # Password is not set

@@ -7,7 +7,7 @@ cd /home/flomint/git/shellfirebox-files
 git pull
 
 
-cd ~/openwrt-sdk
+cd ~/beryl/openwrt
 
 #### Important installation advice: ####
 # for newly downloaded openwrt-sdk, do
@@ -35,11 +35,9 @@ cd ~/openwrt-sdk
 # without specifying the package, which we do later to speed up things.
 # make package/luci-proto-wireguard/compile V=s j=4
 #make package/luci/compile V=s -j5
-make package/luci-app-shellfirebox/compile V=s -j8
-rm ../openwrt-imagebuilder-minibox/packages/luci/luci-*-shellfirebox*
-#rm ../openwrt-imagebuilder-minibox/packages/luci/*luci*
+make package/luci-app-shellfirebox/compile -j8
+make package/index -j8
 
-cp bin/packages/mipsel_24kc/luci/luci-*-shellfirebox* ../openwrt-imagebuilder-minibox/packages/luci/
-#cp bin/packages/mipsel_24kc/luci/*luci* ../openwrt-imagebuilder-minibox/packages/luci/
+
 
 
