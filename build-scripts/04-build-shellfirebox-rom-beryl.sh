@@ -37,7 +37,7 @@ echo "$SFBOX_UID" > files/etc/sfboxuid
 
 # ./scripts/feeds update luci
 # make package/luci-app-shellfirebox/compile V=s -j8
-make -j8
+make -j14
 
 
 cp bin/targets/mediatek/filogic/openwrt-mediatek-filogic-glinet_gl-mt3000-squashfs-sysupgrade.bin ~/beryl/$ROM_DIR/$DEST_FILENAME_SYSUPGRADE

@@ -35,8 +35,8 @@ cd ~/beryl/openwrt
 # without specifying the package, which we do later to speed up things.
 # make package/luci-proto-wireguard/compile V=s j=4
 #make package/luci/compile V=s -j5
-make package/luci-app-shellfirebox/compile -j8
-make package/index -j8
+make package/luci-app-shellfirebox/compile -j14
+make package/index -j14
 
 
 

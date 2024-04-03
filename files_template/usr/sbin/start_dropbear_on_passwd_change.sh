@@ -26,9 +26,10 @@ while IFS= read -r line; do
         if check_root_passwd_set; then
             # Password is set, would start dropbear
             echo "[start_dropbear_on_passwd_change.sh] Password set for root in $file_changed. Start dropbear, removing dropbear starter from autostart."
+            /etc/init.d/dropbear enable
             /etc/init.d/dropbear start
             rm /etc/rc.d/S98dropbear_starter_on_passwd_change
-			sed -i 's/?luci_username=root&luci_password=//g' /www/index.html
+			echo "1" > /www/rootpwset
             break
         else
             # Password is not set
