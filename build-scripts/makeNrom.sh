@@ -12,10 +12,9 @@ do
 	DATE=`date +%Y-%m`
 	export SECRETS_FILE="box_secrets_$DATE.txt"
 	export ROM_DIR="shellfire-boxes-$DATE"
-  mkdir $ROMDIR
+  mkdir -p ~beryl/$ROMDIR
 
 	export BOX_ID=`ls -1 ~/beryl/$ROM_DIR | wc -l`
-	export BOX_ID=$(($BOX_ID / 2))
 	export BOX_ID=$(($BOX_ID + 55000))
 	export BOX_ID="sfbox-"$(($BOX_ID + 1))
 
