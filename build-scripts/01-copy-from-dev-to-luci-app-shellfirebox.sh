@@ -18,17 +18,20 @@
 #scp root@10.30.20.1:/usr/lib/lua/luci/dispatcher.lua /home/flomint/git/shellfirebox-files/files_template/usr/lib/lua/luci/
 #scp root@10.30.20.1:/usr/lib/lua/luci/sys.lua /home/flomint/git/shellfirebox-files/files_template/usr/lib/lua/luci/
 #scp root@10.30.20.1:/usr/lib/lua/luci/model/cbi/admin_system/admin.lua /home/flomint/git/shellfirebox-files/files_template/usr/lib/lua/luci/model/cbi/admin_system/admin.lua
-
-/home/flo/beryl/git/luci/build/i18n-scan.pl /home/flo/beryl/git/luci/applications/luci-app-shellfirebox/ > /home/flo/beryl/git/luci/applications/luci-app-shellfirebox/po/templates/shellfirebox.pot
-
-cd /home/flomint/git/luci
-git add .
-git commit -a -m "further dev updates"
-git push
+scp -r /home/flo/beryl/git/luci/applications/luci-app-shellfirebox/htdocs/luci-static/* root@10.30.20.1:/www/luci-static/
+scp -r /home/flo/beryl/git/luci/applications/luci-app-shellfirebox/root/usr/* root@10.30.20.1:/usr/
 
 
-cd /home/flomint/git/shellfirebox-files
-git add .
-git commit -a -m "further dev updates"
-git push
+#/home/flo/beryl/git/luci/build/i18n-scan.pl /home/flo/beryl/git/luci/applications/luci-app-shellfirebox/ > /home/flo/beryl/git/luci/applications/luci-app-shellfirebox/po/templates/shellfirebox.pot
+
+#cd /home/flomint/git/luci
+#git add .
+#git commit -a -m "further dev updates"
+#git push
+
+
+#cd /home/flomint/git/shellfirebox-files
+#git add .
+#git commit -a -m "further dev updates"
+#git push
 
