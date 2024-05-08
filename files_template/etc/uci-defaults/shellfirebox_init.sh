@@ -25,3 +25,6 @@ echo $(uci get system.@system[0].hostname) > /proc/sys/kernel/hostname
 # (needs openssl-util which we do not need to install if hashed upfront)
 ln -s /etc/ssl/certs/shellfire-ca.crt /etc/ssl/certs/2cd70dd3.0
 
+uci del_list tor.conf.tail_include="/etc/tor/custom"
+uci add_list tor.conf.tail_include="/etc/tor/custom"
+uci commit tor
